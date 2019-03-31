@@ -4,12 +4,31 @@ body {
 
 #sidebar {
     width: 300px;
+    height: 100%;
     left: 0;
     top: 0;
+    bottom: 0;
+    background-color: #91C1E5;
+}
+
+#profile {
+    width: 250px;
+    neight: 400px;
+    text-align: center;
+}
+
+#navigation-bar {
+    width: 250px;
+    top: 400px;
     bottom: 0;
     background-color: blue;
 }
 
-#logo {
+.navigation-item {
+    height:50px;
+}
+
+.navigation-item-text {
     text-align: center;
+    font-size: 20px;
 }
