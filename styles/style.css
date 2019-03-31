@@ -1,34 +1,15 @@
 body {
-    background-color: green;
-}
-
-#framework {
-    background-color: pink;
+    background-color: yellow;
 }
 
 #sidebar {
-    position: fixed;
     width: 300px;
-    background-color: #CCE6FF;
-    top: 0;
     left: 0;
-    bottom:0;
+    top: 0;
+    bottom: 0;
+    background-color: blue;
 }
 
 #logo {
     text-align: center;
-    padding: 50px 20px;
-    positio: relative;
 }
-
-#navigation-bar: {
-    background-colot: yellow;
-}
-
-#main {
-    position: absolute;
-    left: 300px;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: #E6F2FF;
