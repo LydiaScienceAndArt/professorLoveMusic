@@ -37,7 +37,7 @@ body, html {
     height: 110px;
 }
 
-#profile-picture-image {
+.profile-picture-image {
     width: 60px;
     height: 60px;
     background-image: url("../images/pickar-profile-picture.png");
