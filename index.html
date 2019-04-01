@@ -5,8 +5,12 @@
         <meta charset="utf-8">
         <meta name="author" content="Lydia Li">
         <meta name="description" content="professor's homepage">
-  
+
+        <!-- CSS styles-->  
         <link rel="stylesheet" href="styles/style.css">
+
+        <!--Javascript files-->
+        <script type="text/javascript" src="scripts/script.js"></script>
     </head>
     <body>
 	<div id="sidebar">	
@@ -22,9 +26,11 @@
             <div id="navigation-bar">
                 <ul id="navigation-list-main">
                     <li class="navigation-item">
-                        <a href="home.html" target="_self">
-                            <div class="navigation-item-text">Home</div>
-                        </a>
+                        <button onClick="openLinkFromNavigationBar()">
+                            <a href="home.html">
+                                <div class="navigation-item-text">Home</div>
+                            </a>
+                        </button>
                     </li>
                     <li class="navigation-item">
                         <a href="me105.html">
