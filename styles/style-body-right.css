@@ -83,7 +83,10 @@
 
 .garden-pic-1 {
     z-index: 5;
+    /*Notice: styles is current directory!*/
     background-image: url("../images/garden-pic-1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 @keyframes garden-pic-transition {
