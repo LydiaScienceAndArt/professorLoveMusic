@@ -57,11 +57,11 @@ ul {
     height:30px;
 }
 
-.navigation-item:link {
+a.navigation-item:link {
     text-decoration: none;
 }
 
-.navigation-item:hover: {
+a.navigation-item:hover: {
     text-decoration: none;
     background-color: white;
 }
