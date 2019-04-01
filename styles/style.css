@@ -44,17 +44,17 @@ body, html {
 }
 
 .profile-name {
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
-    font-size: 40px;
+    font-size: 24px;
     font-family: Verdana;
     font-weight: bold;
 }
 
 .profile-position {
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
-    font-size: 30px;
+    font-size: 10px;
     font-family: Verdana;
     font-weight: bold;
 }
