@@ -2,10 +2,6 @@ body, html {
     height: 100%;
 }
 
-.wrapper: {
-    height: 100%;
-}
-
 .display-column {
     display: inline-block;
     float: left;
@@ -15,7 +11,6 @@ body, html {
 .sidebar-left {
     width: 25%;
     background-color: #91C1E5;
-    position: fixed;
 }
 
 .body-right {
