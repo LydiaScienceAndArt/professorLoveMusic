@@ -35,8 +35,7 @@ body, html {
 }
 
 #profile-picture {
-    float: top;
-    height: 60%;
+    height: 110px;
 }
 
 #profile-picture-image {
@@ -46,8 +45,7 @@ body, html {
 }
 
 #profile-title {
-    float: top;
-    height: 40%;
+    height: 90px;
 }
 
 .profile-name {
