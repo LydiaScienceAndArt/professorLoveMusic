@@ -9,7 +9,7 @@ body, html {
     display: inline-block;
     float: left;
     /* TODO: need to fix to display on full screen height. */
-    height: 800px;
+    height: 750px;
 }
 
 .sidebar-left {
@@ -61,6 +61,10 @@ body, html {
 .iframe-display-body {
     width: 100%;
     height: 100%;
-    font-size: 30px;
     background-color: grey;
+}
+
+/* for test only, remove later*/
+#test {
+   font-size: 40px;
 }
