@@ -57,6 +57,11 @@ body, html {
     font-weight: bold;
 }
 
+.address-per-line {
+    text-align: left;
+    font-size: 15px;
+}
+
 #navigation-bar {
     width: 100%;
     top: 200px;
