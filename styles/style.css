@@ -44,23 +44,26 @@ body, html {
 }
 
 .profile-name {
-    padding-left: 15px;
-    text-align: left
+    padding-left: 20px;
+    text-align: left;
     font-size: 40px;
     font-family: Verdana;
     font-weight: bold;
 }
 
 .profile-position {
-    text-align: left
+    padding-left: 20px;
+    text-align: left;
     font-size: 30px;
     font-family: Verdana;
     font-weight: bold;
 }
 
 .address-per-line {
+    padding-left: 20px;
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
+    font-family: Verdana;
 }
 
 #navigation-bar {
