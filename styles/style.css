@@ -95,15 +95,11 @@ ul {
 a:link, a:visited {
     text-decoration: none;
     color: white;
-    display: block;
-    width: 200px;
-    height: 32px;
-    padding: 5px, 10px;
 }
 
 a:hover, a:active {
     text-decoration: none;
-    color: #088A29;
+    color: #A5DF00;
 }
 
 .navigation-item-text {
