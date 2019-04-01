@@ -55,17 +55,13 @@ ul {
 
 .navigation-item {
     height:30px;
-    text-align: left;
-    font-size: 20px;
-    font-family: Verdana;
-    font-weight: bold;
 }
 
-a.navigation-item:link {
+a:link {
     text-decoration: none;
 }
 
-a.navigation-item:hover {
+a:hover {
     text-decoration: none;
     background-color: white;
 }
