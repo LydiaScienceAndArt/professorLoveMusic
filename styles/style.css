@@ -21,7 +21,7 @@ body, html {
 }
 
 .sidebar-left-text {
-    color: #848484;
+    color: #A4A4A4;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
@@ -39,11 +39,11 @@ body, html {
 }
 
 #profile-picture {
-    height: 250px;
+    padding-top: 20px;
+    height: 240px;
 }
 
 .profile-picture-image {
-    padding-top: 20px;
     margin: auto;
     width: 200px;
     height: 200px;
