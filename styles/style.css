@@ -13,18 +13,18 @@ body {
 }
 
 .body-right {
-    width: 75%
+    width: 75%;
     background-color: pink;
 }
 
 #profile {
-    width: 250px;
-    neight: 400px;
+    width: 100%;
+    height: 400px;
     text-align: center;
 }
 
 #navigation-bar {
-    width: 250px;
+    width: 100%;
     top: 400px;
     bottom: 0;
 }
