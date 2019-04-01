@@ -8,6 +8,26 @@
     font-weight: bold;
 }
 
+.section-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .section-content {
     font-size: 20px;
+}
+
+.moving-text {
+    position: relative;
+    animation-name: news-moving-text-1;
+    animation-duration: 4s;
+}
+
+/* Standard syntax */
+@keyframes news-moving-text-1 {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:100px; top:0px;}
+  50%  {background-color:blue; left:200px; top:0px;}
+  75%  {background-color:green; left:300px; top:0px;}
+  100% {background-color:red; left:400px; top:0px;}
 }
