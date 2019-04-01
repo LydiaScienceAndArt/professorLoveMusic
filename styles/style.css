@@ -2,13 +2,19 @@ body {
     background-color: yellow;
 }
 
-#sidebar {
-    width: 300px;
+.display-column {
+    float: left;
     height: 100%;
-    left: 0;
-    top: 0;
-    bottom: 0;
+}
+
+.sidebar-left {
+    width: 25%;
     background-color: #91C1E5;
+}
+
+.body-right {
+    width: 75%
+    background-color: pink;
 }
 
 #profile {
@@ -32,11 +38,9 @@ body {
     font-size: 20px;
 }
 
-#main-body {
-    left: 300px;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    height: 100%;
-    background-color: pink;
+/* clear floats after the columns. */
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
 }
