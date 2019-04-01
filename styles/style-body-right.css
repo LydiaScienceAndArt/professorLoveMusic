@@ -4,12 +4,12 @@
 
 .section {
     padding-top: 20px;
+    width: 500px;
 }
 
 .section-inner-wrapper {
     display: inline-block;
     float: left;
-    width: 500px;
     height: 200px;
     background-color: white;
 }
