@@ -40,7 +40,7 @@ body, html {
 
 .profile-picture {
     padding-top: 60px;
-    height: 240px;
+    height: 280px;
 }
 
 .profile-picture-image {
@@ -54,7 +54,7 @@ body, html {
 }
 
 .profile-title {
-    padding-top: 30px;
+    padding-top: 20px;
     height: 150px;
 }
 
