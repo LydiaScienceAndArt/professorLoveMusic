@@ -20,6 +20,7 @@
 }
 
 .section-content {
+    padding-topo: 5px;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
