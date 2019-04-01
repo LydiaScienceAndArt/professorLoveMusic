@@ -1,8 +1,21 @@
+.section-top {
+    padding-top: 20px;
+}
+
 .section {
     padding-top: 20px;
 }
 
+.section-inner-wrapper {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+}
+
 .section-title {
+    width: 20%;
     font-size: 24px;
     font-family: Verdana;
     font-weight: bold;
@@ -14,6 +27,7 @@
 }
 
 .section-content {
+    width: 80%;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
