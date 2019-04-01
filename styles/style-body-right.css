@@ -14,18 +14,31 @@
 }
 
 .section-content {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .moving-text {
+    font-size: 20px;
     position: relative;
     animation-name: news-moving-text;
-    -webkit-animation: news-moving-text; /* Safari 4.0-8.0 */
     animation-duration: 4s;
+    animation-fill-mode: forwards;
+    /* for Safari 4.0-8.0: */    
+    -webkit-animation-name: news-moving-text;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: forwards;
 }
 
 #moving-text-1 {
+   animation-timing-function: ease-in;
+}
+
+#moving-text-2 {
    animation-timing-function: linear;
+}
+
+#moving-text-3 {
+   animation-timing-function: ease-out;
 }
 
 /* Safari 4.0-8.0 */
