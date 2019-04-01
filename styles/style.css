@@ -7,17 +7,15 @@ body, html {
 
 #index-wrapper {
     padding-left: 0;
+    position: relative;
 }
-.display-column {
-    /* TODO: need to fix to display on full screen height. */
-    height: 800px;
-}
-
+    
 .sidebar-left {
     position: fixed;
     z-index: 1000;
     overflow-y: auto;
     width: 300px;
+    height: 100%;
     background-color: #91C1E5;
 }
 
