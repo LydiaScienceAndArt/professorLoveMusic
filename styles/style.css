@@ -95,6 +95,7 @@ ul {
 
 a:link, a:visited {
     text-decoration: none;
+    font-color: white;
     display: block;
     width: 200px;
     height: 32px;
