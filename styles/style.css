@@ -13,12 +13,13 @@ body, html {
 }
 
 .sidebar-left {
-    position: fixed;
+    overflow: scroll;
     width: 25%;
     background-color: #91C1E5;
 }
 
 .body-right {
+    overflow: scroll;
     width: 75%;
     background-color: pink;
 }
