@@ -60,9 +60,9 @@ ul {
 a:link {
     text-decoration: none;
     display: block;
-    width: 100%;
+    width: 200px;
+    height: 32px;
     padding: 5px, 10px;
-    background-color: green;
 }
 
 a:hover {
