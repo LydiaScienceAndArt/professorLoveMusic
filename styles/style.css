@@ -100,7 +100,7 @@ a:link, a:visited {
 
 a:hover, a:active {
     text-decoration: none;
-    background-color: white;
+    font-color: #088A29;
 }
 
 .navigation-item-text {
