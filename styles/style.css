@@ -38,10 +38,12 @@ body, html {
 }
 
 #profile-picture-image {
-    padding-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-rignt: auto;
+    width: 60px;
+    height: 60px;
+    background-image: url("../images/pickar-profile-picture.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat:
+    z-index: 5;
 }
 
 #profile-title {
