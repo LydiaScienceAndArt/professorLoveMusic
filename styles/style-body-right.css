@@ -67,11 +67,21 @@
 }
 
 .garden-pic-container {
-    width: 250px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 
 .garden-pic {
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.garden-pic-transition-1 {
+    -webkit-transition: visibility: 0s, opacity 2s linear;
+    transition: visibility: 0s, opacity 2s linear;
+}
+
+.garden-pic-transition-2 {
+    -webkit-transition: visibility: 0s, opacity 3s linear;
+    transition: visibility: 0s, opacity 3s linear;
 }
