@@ -9,7 +9,7 @@ body, html {
     display: inline-block;
     float: left;
     /* TODO: need to fix to display on full screen height. */
-    height: 750px;
+    height: 800px;
 }
 
 .sidebar-left {
