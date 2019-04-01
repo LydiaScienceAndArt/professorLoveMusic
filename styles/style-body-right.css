@@ -75,9 +75,9 @@
 .garden-pic {
     min-width: 100%;
     min-height: 100%;
-    animation-name: garden-pic-transition;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+    /*animation-name: garden-pic-transition;*/
+    /*animation-duration: 2s;*/
+    /*animation-fill-mode: forwards;*/
 }
 
 @keyframes garden-pic-transition {
