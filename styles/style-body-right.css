@@ -81,7 +81,7 @@
     /*animation-fill-mode: forwards;*/
 }
 
-#garden-pic-1 {
+.garden-pic-1 {
     background-image: url("images/garden-pic-1.png");
 }
 
