@@ -23,7 +23,7 @@ body, html {
 }
 
 .body-right {
-    postion: absolute;
+    position: absolute;
     overflow-y: auto;
     left: 500px;
     right: 0;
