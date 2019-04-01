@@ -74,14 +74,12 @@
 .garden-pic {
     min-width: 100%;
     min-height: 100%;
+    animation-name: garden-pic-transition;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
-.garden-pic-transition-1 {
-    -webkit-transition: visibility: 0s, opacity 2s linear;
-    transition: visibility: 0s, opacity 2s linear;
-}
-
-.garden-pic-transition-2 {
-    -webkit-transition: visibility: 0s, opacity 3s linear;
-    transition: visibility: 0s, opacity 3s linear;
+@keyframes garden-pic-transition {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
