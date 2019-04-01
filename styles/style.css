@@ -71,11 +71,10 @@ body, html {
     font-weight: bold;
 }
 
-.address-per-line {
+.profile-email {
     padding-left: 20px;
     text-align: left;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
 }
 
 #navigation-bar {
