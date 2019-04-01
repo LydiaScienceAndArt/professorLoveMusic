@@ -13,7 +13,7 @@
         <script type="text/javascript" src="scripts/script.js"></script>
     </head>
     <body>
-	<div id="sidebar">	
+        <div id="sidebar">	
             <div id="profile">
                 <div id="profile-picture">
                     <img src="images/profile-picture.jpg" alt="Profile Picture">
@@ -26,9 +26,9 @@
             <div id="navigation-bar">
                 <ul id="navigation-list-main">
                     <li class="navigation-item">
-                        <button onClick="openLinkFromNavigationBar()">
+                        <a href="home.html" target="iframe-display-body">
                             <div class="navigation-item-text">Home</div>
-                        </button>
+                        </a>
                     </li>
                     <li class="navigation-item">
                         <a href="me105.html">
@@ -70,6 +70,10 @@
                     </li>
                 </ul>
             </div>
-	</div>
+        </div>
+        <div id="main-body">
+            <iframe id="display-body" name="iframe-display-body">
+            </iframe>
+        </div>
     </body>
 </html>
