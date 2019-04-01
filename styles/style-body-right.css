@@ -71,7 +71,6 @@
 .garden-pic-container {
     width: 420px;
     height: 310px;
-    background: "images/garden-pic-1.png";
 }
 
 .garden-pic {
@@ -80,6 +79,10 @@
     /*animation-name: garden-pic-transition;*/
     /*animation-duration: 2s;*/
     /*animation-fill-mode: forwards;*/
+}
+
+#garden-pic-1 {
+    background: "images/garden-pic-1.png";
 }
 
 @keyframes garden-pic-transition {
