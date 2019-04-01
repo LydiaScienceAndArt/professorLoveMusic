@@ -13,6 +13,7 @@ body, html {
 }
 
 .sidebar-left {
+    position: fixed;
     width: 25%;
     background-color: #91C1E5;
 }
