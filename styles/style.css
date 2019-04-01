@@ -38,6 +38,7 @@ body, html {
 }
 
 .profile-picture-image {
+    margin: auto;
     width: 200px;
     height: 200px;
     background-image: url("../images/pickar-profile-picture.png");
