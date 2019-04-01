@@ -5,12 +5,13 @@ body, html {
     width: 100%;
     height: 100%;
 }
-/*
+
 #index-wrapper {
-    left: 300px;
+    left: 0;
+    right: 0;
     height: 100%;
     position: relative;
-}*/
+}
     
 .sidebar-left {
     position: fixed;
