@@ -82,7 +82,7 @@
 }
 
 #garden-pic-1 {
-    background: "images/garden-pic-1.png";
+    background-image: url("images/garden-pic-1.png");
 }
 
 @keyframes garden-pic-transition {
