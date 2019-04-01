@@ -5,22 +5,27 @@ body, html {
     height: 100%;
 }
 
+#index-wrapper {
+    padding-left: 0;
+}
 .display-column {
-    display: inline-block;
-    float: left;
     /* TODO: need to fix to display on full screen height. */
     height: 800px;
 }
 
 .sidebar-left {
-    overflow: scroll;
-    width: 25%;
+    position: fixed;
+    z-index: 1000;
+    overflow-y: auto;
+    width: 300px;
     background-color: #91C1E5;
 }
 
 .body-right {
-    overflow: scroll;
-    width: 75%;
+    postion: absolute;
+    overflow-y: auto;
+    left: 300px;
+    right: 0;
     background-color: pink;
 }
 
