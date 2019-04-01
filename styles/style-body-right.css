@@ -12,18 +12,21 @@
     font-size: 24px;
     font-family: Verdana;
     font-weight: bold;
+    color: #045FB4;
 }
 
 .section-subtitle {
     font-size: 20px;
     font-weight: bold;
     font-family: Verdana;
+    color: #0174DF;
 }
 
 .section-content {
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
+    color: #848484;
 }
 
 .text-emphasize {
