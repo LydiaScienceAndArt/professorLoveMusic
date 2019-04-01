@@ -59,7 +59,8 @@ ul {
 
 a:link {
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    width: 150px;
     padding: 5px, 10px;
     background-color: green;
 }
