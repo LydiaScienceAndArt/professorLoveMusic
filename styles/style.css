@@ -44,7 +44,7 @@ body, html {
 }
 
 .profile-name {
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: left;
     font-size: 24px;
     font-family: Verdana;
@@ -52,7 +52,7 @@ body, html {
 }
 
 .profile-position {
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: left;
     font-size: 20px;
     font-family: Verdana;
@@ -63,7 +63,7 @@ body, html {
     padding-left: 20px;
     text-align: left;
     font-size: 16px;
-    font-family: Verdana;
+    font-family: 'Lato', sans-serif;
 }
 
 #navigation-bar {
