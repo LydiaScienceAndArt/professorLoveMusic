@@ -73,8 +73,8 @@
 }
 
 .garden-pic {
-    max-width: 100%;
-    max-height: 100%;
+    width: 400px;
+    max-height: 300px;
     /*animation-name: garden-pic-transition;*/
     /*animation-duration: 2s;*/
     /*animation-fill-mode: forwards;*/
@@ -90,6 +90,5 @@
     bottom: 0;
     right: 0;
     width: 300px;
-    height: 250px;
-    background-color: yellow;
+    height: 20px;
 }
