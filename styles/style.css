@@ -25,7 +25,6 @@ body, html {
     overflow-y: auto;
     left: 300px;
     right: 0;
-    bottom: 0;
     height: 100%;
     background-color: pink;
 }
