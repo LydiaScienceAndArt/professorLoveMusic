@@ -49,13 +49,19 @@ body, html {
     bottom: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .navigation-item {
     height:30px;
 }
 
 .navigation-item-text {
-    text-align: center;
+    text-align: left;
     font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
 }
 
 .iframe-display-body {
