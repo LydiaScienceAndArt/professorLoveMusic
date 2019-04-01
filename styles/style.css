@@ -108,13 +108,3 @@ a:hover, a:active {
 #test {
    font-size: 40px;
 }
-
-.section-title {
-    font-size: 40px;
-    font-family: Verdana;
-    font-weight: bold;
-}
-
-.section-content {
-    font-size: 16px;
-}

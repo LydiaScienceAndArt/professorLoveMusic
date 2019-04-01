@@ -1,0 +1,13 @@
+.section {
+    padding-top: 20px;
+}
+
+.section-title {
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.section-content {
+    font-size: 16px;
+}
