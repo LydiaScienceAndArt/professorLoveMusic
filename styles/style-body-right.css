@@ -66,6 +66,11 @@
   to {left: 200px;}
 }
 
+.garden-pic-container {
+    width: 250px;
+    height: 200px;
+}
+
 .garden-pic {
     max-width: 100%;
     max-height: 100%;
