@@ -1,9 +1,9 @@
 .section {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 28px;
     font-family: Verdana;
     font-weight: bold;
 }
@@ -14,7 +14,12 @@
 }
 
 .section-content {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.text-emphasize {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .moving-text {
@@ -30,15 +35,15 @@
 }
 
 #moving-text-1 {
-   animation-timing-function: ease-in;
-}
-
-#moving-text-2 {
    animation-timing-function: linear;
 }
 
+#moving-text-2 {
+   animation-timing-function: ease;
+}
+
 #moving-text-3 {
-   animation-timing-function: ease-out;
+   animation-timing-function: ease-in;
 }
 
 /* Safari 4.0-8.0 */
