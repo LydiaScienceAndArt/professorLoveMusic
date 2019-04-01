@@ -13,7 +13,7 @@ body, html {
     
 .sidebar-left {
     position: fixed;
-    z-index: 1000;
+    z-index: 500;
     overflow-y: auto;
     width: 300px;
     height: 100%;
@@ -43,7 +43,7 @@ body, html {
     background-image: url("../images/pickar-profile-picture.png");
     background-size: 100% 100%;
     background-repeat: no-repeat:
-    z-index: 5;
+    z-index: 1000;
 }
 
 #profile-title {
