@@ -38,6 +38,7 @@ body, html {
 }
 
 .profile-picture-image {
+    padding: 20px;
     margin: auto;
     width: 200px;
     height: 200px;
