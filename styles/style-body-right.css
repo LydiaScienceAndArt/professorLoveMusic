@@ -70,23 +70,44 @@
 
 .garden-pic-container {
     width: 420px;
-    height: 310px;
+    height: 290px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 5;
 }
 
 .garden-pic {
-    width: 400px;
-    max-height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 5;
     /*animation-name: garden-pic-transition;*/
     /*animation-duration: 2s;*/
     /*animation-fill-mode: forwards;*/
 }
 
 .garden-pic-1 {
-    z-index: 5;
     /*Notice: styles is current directory!*/
     background-image: url("../images/garden-pic-1.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+}
+
+.garden-pic-2 {
+    background-image: url("../images/garden-pic-2.png");
+}
+
+.garden-pic-3 {
+    background-image: url("../images/garden-pic-3.png");
+}
+
+.garden-pic-4 {
+    background-image: url("../images/garden-pic-4.png");
+}
+
+.garden-pic-5 {
+    background-image: url("../images/garden-pic-5.png");
+}
+
+.garden-pic-6 {
+    background-image: url("../images/garden-pic-6.png");
 }
 
 @keyframes garden-pic-transition {
