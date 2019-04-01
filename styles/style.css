@@ -44,6 +44,7 @@ body, html {
 }
 
 .profile-name {
+    padding-left: 8px;
     text-align: left
     font-size: 40px;
     font-family: Verdana;
