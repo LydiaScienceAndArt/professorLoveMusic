@@ -28,6 +28,8 @@
 
 .section-content {
     width: 80%;
+    height: 200px;
+    overflow: scroll;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
