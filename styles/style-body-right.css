@@ -19,11 +19,11 @@
 
 .navigation-item-horizontal a {
     display: block;
-    height: 40px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 26px;
     text-decoration: none;
+    font-size: 30px;
 }
 
 .navigation a:hover:not(.navigation-item-active) {
@@ -168,4 +168,8 @@
     padding: 20px;
     margin-top: 30px;
     height: 100%;
+}
+
+.table-first-row {
+    font-weight: bold;
 }
