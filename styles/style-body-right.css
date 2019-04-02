@@ -19,6 +19,7 @@
 
 .navigation-item-horizontal a {
     display: block;
+    height: 40px;
     color: white;
     text-align: center;
     padding: 14px 16px;
