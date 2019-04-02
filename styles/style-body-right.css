@@ -2,6 +2,37 @@
     padding-top: 20px;
 }
 
+.navigation-bar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation-item-horizontal {
+    float: left;
+}
+
+.navigation-item-horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover:not(.navigation-item-active) {
+    background-color: black;
+}
+
+.navigation-item-active {
+    background-color: #4CAF50;
+}
+
 .section {
     padding-top: 20px;
     padding-left: 80px;
