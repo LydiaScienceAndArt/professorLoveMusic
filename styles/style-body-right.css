@@ -19,11 +19,12 @@
 
 .navigation-item-horizontal a {
     display: block;
-    color: white;
+    color: #A4A4A4;
     text-align: center;
-    padding: 24px 26px;
+    padding: 28px 30px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 28px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 .navigation a:hover:not(.navigation-item-active) {
