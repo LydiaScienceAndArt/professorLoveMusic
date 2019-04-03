@@ -28,11 +28,10 @@ body, html {
 }
 
 .body-right {
-    top: 0;
+    margin: 0;
     position: absolute;
     overflow-y: auto;
     left: 300px;
-    right: 0;
     height: 100%;
 }
 
