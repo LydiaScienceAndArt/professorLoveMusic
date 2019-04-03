@@ -33,6 +33,7 @@
     top: 0;
     overflow: hidden;
     position: fixed;
+    width: 100%;
     background-color: #A9D0F5;
     opacity: 0.8;
 }
@@ -46,16 +47,16 @@
 }
 
 .navigation-item-horizontal {
-    float: left;
+    float: right;
 }
 
 .navigation-item-horizontal a {
     display: block;
     color: #A4A4A4;
     text-align: center;
-    padding: 18px 20px;
+    padding: 12px 15px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
