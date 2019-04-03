@@ -213,6 +213,10 @@
     height: 100%;
 }
 
+table, tr, th {
+    border: 2px solid #045FB4;
+}
+
 th {
     height:35px;
     width: 50px;
