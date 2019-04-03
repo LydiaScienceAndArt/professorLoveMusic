@@ -29,6 +29,7 @@ body, html {
 
 .body-right {
     margin: 0;
+    padding: 0;
     top: 0;
     right: 0;
     position: absolute;
