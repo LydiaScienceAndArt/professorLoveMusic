@@ -41,7 +41,7 @@
 
 .navigation-bar-horizontal {
     list-style-type: none;
-    bottom: 10px;
+    float: right;
     right: 30px;
     width: 70%;
 }
