@@ -213,15 +213,15 @@
     height: 100%;
 }
 
-table {
+.me105-lectures-table table {
     border-collapse: collapse;
 }
 
-table, th, td {
+.me105-lectures-table table, th, td {
     border: 2px solid #045FB4;
 }
 
-th, td {
+.me105-lectures-table th, td {
     height: 80px;
     width: 150px;
     text-align: center;
