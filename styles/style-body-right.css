@@ -29,6 +29,15 @@
     background-repeat: no-repeat;
 }
 
+.top-background-gardener-page {
+    padding: 20px;
+    margin: auto;
+    height: 200px;
+    width: 80%;
+    background-image: url("../images/flower-background-pic-6.jpg");
+    background-repeat: no-repeat;
+}
+
 .navigation-bar-horizontal-background {
     top: 0;
     overflow: hidden;
