@@ -34,7 +34,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
     position: fixed;
     top: 0;
     width: 100%;
@@ -54,13 +53,13 @@
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.navigation a:hover:not(.navigation-item-active) {
-    background-color: black;
+.navigation a:hover {
+    color: #4CAF50;
 }
 
 .navigation-item-active {
-    background-color: #4CAF50;
-    color: white;
+    color: #4CAF50;
+    font-weight: bold;
 }
 
 .section {
