@@ -55,7 +55,7 @@
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.navigation a:hover {
+.navigation-item-horizontal a:hover {
     color: #4CAF50;
 }
 
