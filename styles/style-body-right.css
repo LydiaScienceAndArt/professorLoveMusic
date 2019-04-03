@@ -3,30 +3,28 @@
 }
 
 .top-background-news-page {
-    padding-bottom: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
+    margin: auto;
     height: 200px;
-    width: 100%;
+    width: 80%;
     background-image: url("../images/flower-background-pic-5.jpg");
     background-repeat: no-repeat;
 }
 
 .top-background-about-me-page {
-    padding: 30px;
+    padding: 20px;
     margin: auto;
     height: 200px;
-    width: 60%;
+    width: 80%;
     background-image: url("../images/flower-background-pic-8.jpg");
     background-repeat: no-repeat;
 }
 
 .top-background-useful-links-page {
-    padding-bottom: 30px;
+    padding: 20px;
     margin: auto;
     height: 200px;
-    width: 100%;
+    width: 80%;
     background-image: url("../images/flower-background-pic-10.jpg");
     background-repeat: no-repeat;
 }
