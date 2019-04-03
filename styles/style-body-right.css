@@ -3,6 +3,8 @@
 }
 
 .top-background-news-page {
+    padding-bottom: 30px;
+    margin: auto;
     height: 200px;
     width: 100%;
     background-image: url("../images/flower-background-pic-5.jpg");
@@ -10,6 +12,8 @@
 }
 
 .top-background-about-me-page {
+    padding-bottom: 30px;
+    margin: auto;
     height: 200px;
     width: 100%;
     background-image: url("../images/flower-background-pic-8.jpg");
@@ -17,6 +21,8 @@
 }
 
 .top-background-useful-links-page {
+    padding-bottom: 30px;
+    margin: auto;
     height: 200px;
     width: 100%;
     background-image: url("../images/flower-background-pic-10.jpg");
