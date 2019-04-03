@@ -38,6 +38,7 @@
     top: 0;
     width: 100%;
     background-color: #A9D0F5;
+    opacity: 0.5;
 }
 
 .navigation-item-horizontal {
