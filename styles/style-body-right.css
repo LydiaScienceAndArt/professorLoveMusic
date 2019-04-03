@@ -46,6 +46,10 @@
     width: 70%;
 }
 
+.navigation-item-horizontal {
+    float: left;
+}
+
 .navigation-item-horizontal a {
     display: block;
     color: #848484;
