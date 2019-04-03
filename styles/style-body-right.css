@@ -221,7 +221,7 @@ table, tr {
     border: 2px solid #045FB4;
 }
 
-th {
+th, td {
     border: 2px solid #045FB4;
     height: 65px;
     width: 80px;
