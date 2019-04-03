@@ -12,6 +12,7 @@ body, html {
 }
     
 .sidebar-left {
+    top: 0;
     position: fixed;
     z-index: 500;
     overflow-y: auto;
