@@ -2,6 +2,11 @@
     padding-top: 20px;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .top-background-news-page {
     padding: 20px;
     margin: auto;
