@@ -16,6 +16,13 @@
     background-repeat: no-repeat;
 }
 
+.top-background-useful-links-page {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/flower-background-pic-10.jpg");
+    background-repeat: no-repeat;
+}
+
 .navigation-bar-horizontal {
     list-style-type: none;
     margin: 0;
