@@ -29,16 +29,20 @@
     background-repeat: no-repeat;
 }
 
+.navigation-bar-horizontal-background {
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #A9D0F5;
+    opacity: 0.8;
+}
+
 .navigation-bar-horizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #A9D0F5;
-    opacity: 0.5;
+    width: 50%;
+    float: right;
 }
 
 .navigation-item-horizontal {
@@ -47,11 +51,11 @@
 
 .navigation-item-horizontal a {
     display: block;
-    color: #D8D8D8;
+    color: #A4A4A4;
     text-align: center;
-    padding: 28px 30px;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
