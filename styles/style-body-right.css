@@ -243,3 +243,7 @@ body {
 .table-first-row {
     font-weight: bold;
 }
+
+.text-italic {
+    font-style: italic;
+}
