@@ -4,13 +4,10 @@ function openLinkFromNavigationBar() {
 
 var imageSlideIndex = 1;
 
+/*need to wait until elements are added to DOM, then "imageSlides" class elements can be selected out by calling showSlides.*/
 document.addEventListener('DOMContentLoaded', (event) => {
     showSlides(imageSlideIndex);
 });
-
-// var imageSlideIndex = 1;
-
-// showSlides(imageSlideIndex);
 
 function plusSlides(x) {
     showSlides(imageSlideIndex += x);
