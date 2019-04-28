@@ -47,6 +47,36 @@ body {
     background-repeat: no-repeat;
 }
 
+.imageSlides {
+    display: none;
+}
+
+/* Fading Animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.image-number-text {
+    color: #F2F2F2;
+    font-size: 15px;
+    padding: 12px 12px;
+    position: absolute;
+    top: 0;
+}
+
 .navigation-bar-horizontal-background {
     top: 0;
     margin: 0;
@@ -162,22 +192,19 @@ body {
 }
 
 .garden-pic-container {
-    width: 420px;
-    height: 290px;
+    width: 840px;
+    height: 580px;
 }
 
 .garden-pic {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: 5;
-    animation-name: garden-pic-transition;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
 .garden-pic-1 {
     /*Notice: styles is current directory!*/
-    background-image: url("../images/garden-pic-1.png");
+    background-image: url("../images/Ken-Garden/garden-1.jpg");
 }
 
 .garden-pic-2 {
