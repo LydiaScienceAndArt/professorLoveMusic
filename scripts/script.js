@@ -3,8 +3,6 @@ function openLinkFromNavigationBar() {
 }
 
 var imageSlideIndex = 1;
-var slides = document.getElementsByClassName("imageSlides");
-var dots = document.getElementsByClassName("select-dot");
 
 showSlides(imageSlideIndex);
 
@@ -18,8 +16,8 @@ function selectCurrentSlide(x) {
 
 function showSlides(x) {
     var i;
-    // var slides = document.getElementsByClassName("imageSlides");
-    // var dots = document.getElementsByClassName("select-dot");
+    var slides = document.getElementsByClassName("imageSlides");
+    var dots = document.getElementsByClassName("select-dot");
 
     if (x > slides.length) {
         imageSlideIndex = 1;
