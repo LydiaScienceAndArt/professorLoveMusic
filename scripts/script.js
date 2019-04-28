@@ -2,6 +2,7 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
+/*
 var imageSlideIndex = 1;
 
 showSlides(imageSlideIndex);
@@ -37,4 +38,4 @@ function showSlides(x) {
 
     slides[imageSlideIndex - 1].style.display = "block";
     dots[imageSlideIndex - 1].className += " active";
-}
+}*/

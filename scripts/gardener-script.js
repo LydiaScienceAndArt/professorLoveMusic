@@ -1,4 +1,9 @@
+function openLinkFromNavigationBar() {
+    window.open("home.html","_self");
+}
+
 var imageSlideIndex = 1;
+
 showSlides(imageSlideIndex);
 
 function plusSlides(x) {
