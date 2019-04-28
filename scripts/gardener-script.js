@@ -2,9 +2,15 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-var imageSlideIndex = 1;
+document.addEventListener('DOMContentLoaded', (event) => {
+    var imageSlideIndex = 1;
 
-showSlides(imageSlideIndex);
+    showSlides(imageSlideIndex);
+});
+
+// var imageSlideIndex = 1;
+
+// showSlides(imageSlideIndex);
 
 function plusSlides(x) {
     showSlides(imageSlideIndex += x);
