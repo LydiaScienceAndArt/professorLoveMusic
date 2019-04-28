@@ -92,6 +92,12 @@ body {
     user-select: none;
 }
 
+/* to place Next button to the right*/
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 .image-select-dot {
     text-align: center;
 }
@@ -226,8 +232,8 @@ body {
 }
 
 .garden-pic-container {
-    width: 840px;
-    height: 580px;
+    width: 700px;
+    height: 500px;
     position: relative;
 }
 
