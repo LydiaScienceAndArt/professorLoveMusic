@@ -235,7 +235,8 @@ body {
 }
 
 .garden-pic-container {
-    width: 100%;
+    width: 784px;
+    height: 588px;
     position: relative;
 }
 
