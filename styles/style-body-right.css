@@ -71,8 +71,9 @@ body {
 }
 
 .image-number-text {
-    color: #F2F2F2;
-    font-size: 15px;
+    color: #045FB4;
+    font-size: 20px;
+    font-weight: bold;
     padding: 12px 12px;
     position: absolute;
     top: 0;
@@ -85,7 +86,7 @@ body {
     width: auto;
     padding: 20px;
     margin-top: -25px;
-    color: white;
+    color: #045FB4;
     font-weight: bold;
     font-size: 28px;
     transition: 0.6s ease;
@@ -100,7 +101,8 @@ body {
 }
 
 .image-select-dot {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .select-dot {
@@ -242,9 +244,7 @@ body {
 
 .garden-pic {
     width: 100%;
-    // background-size: 100% 100%;
-    // background-repeat: no-repeat;
-    // z-index: 5;
+    border-radius: 20px;
 }
 
 .garden-pic-1 {
