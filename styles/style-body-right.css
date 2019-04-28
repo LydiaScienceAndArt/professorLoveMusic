@@ -194,17 +194,17 @@ body {
 .garden-pic-container {
     width: 840px;
     height: 580px;
+    position: relative;
 }
 
 .garden-pic {
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    z-index: 5;
+    width: 100%;
+    // background-size: 100% 100%;
+    // background-repeat: no-repeat;
+    // z-index: 5;
 }
 
 .garden-pic-1 {
-    /*Notice: styles is current directory!*/
-    background-image: url("../images/Ken-Garden/garden-1.jpg");
 }
 
 .garden-pic-2 {
