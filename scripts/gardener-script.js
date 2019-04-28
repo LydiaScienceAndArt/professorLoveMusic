@@ -2,9 +2,9 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-document.addEventListener('DOMContentLoaded', (event) => {
-    var imageSlideIndex = 1;
+var imageSlideIndex = 1;
 
+document.addEventListener('DOMContentLoaded', (event) => {
     showSlides(imageSlideIndex);
 });
 
