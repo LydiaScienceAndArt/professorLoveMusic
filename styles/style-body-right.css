@@ -49,6 +49,9 @@ body {
 
 .imageSlides {
     display: none;
+    /* ensure image is in center*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Fading Animation */
@@ -232,14 +235,12 @@ body {
 }
 
 .garden-pic-container {
-    width: 784px;
-    height: 588px;
+    width: 100%;
     position: relative;
-    text-align: center;
 }
 
 .garden-pic {
-    width: 100%;
+    width: 60%;
     // background-size: 100% 100%;
     // background-repeat: no-repeat;
     // z-index: 5;
