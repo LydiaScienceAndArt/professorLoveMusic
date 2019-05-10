@@ -316,7 +316,8 @@ body {
 }
 
 .paper-intro-background {
-    background-color: #DEE8F7;
+    padding: 5px;
+    background-color: #EAEFF7;
 }
 
 .text-bold {
