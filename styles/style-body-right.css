@@ -315,6 +315,10 @@ body {
     font-weight: bold;
 }
 
+.paper-intro-background {
+    background-color: #DEE8F7;
+}
+
 .text-bold {
     font-weight: bold;
 }
