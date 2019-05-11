@@ -195,6 +195,11 @@ body {
     color: #848484;
 }
 
+.news-page-link a:visited {
+    text-decoration: none;
+    decoration: none
+}
+
 .text-emphasize {
     font-weight: bold;
     font-style: italic;
