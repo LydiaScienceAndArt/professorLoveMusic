@@ -202,6 +202,7 @@ body {
 
 .right-body-link a:link, a:visited {
     text-decoration: none;
+    color: #848484;
 }
 
 .text-emphasize {
