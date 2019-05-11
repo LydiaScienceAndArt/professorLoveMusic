@@ -195,6 +195,11 @@ body {
     color: #848484;
 }
 
+.right-body-link a:hover, a:active {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
 .right-body-link a:visited {
     text-decoration: none;
 }
