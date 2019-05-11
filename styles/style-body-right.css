@@ -195,7 +195,7 @@ body {
     color: #848484;
 }
 
-.news-page-link a:visited {
+a.right-body-link:visited {
     text-decoration: none;
     decoration: none
 }
