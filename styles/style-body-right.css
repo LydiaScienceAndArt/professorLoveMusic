@@ -200,7 +200,7 @@ body {
     color: #4CAF50;
 }
 
-.right-body-link a:visited {
+.right-body-link a:link, a:visited {
     text-decoration: none;
 }
 
