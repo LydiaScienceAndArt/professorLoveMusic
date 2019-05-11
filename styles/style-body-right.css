@@ -195,9 +195,8 @@ body {
     color: #848484;
 }
 
-a.right-body-link:visited {
+.right-body-link a:visited {
     text-decoration: none;
-    decoration: none
 }
 
 .text-emphasize {
