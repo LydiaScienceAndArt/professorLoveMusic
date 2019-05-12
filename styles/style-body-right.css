@@ -201,8 +201,9 @@ body {
 }
 
 .right-body-link a:link, a:visited {
-    text-decoration: none;
+    text-decoration: underline;
     color: #848484;
+    font-weight: bold;
 }
 
 .text-emphasize {
