@@ -355,7 +355,6 @@ body {
     height: 100%;
     float: left;
     padding: 10px;
-    background-color: pink;
 }
 
 .lecture-sub-container-2 {
@@ -367,8 +366,7 @@ body {
 }
 
 .lecture-text-container {
-    padding: 20px;
-    background-color: yellow;
+    padding: 60px 20px 20px 20px;
 }
 
 .lecture-pic-container {
