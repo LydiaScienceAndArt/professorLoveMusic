@@ -377,4 +377,5 @@ body {
     height: 100%;
     background-image: url("../images/lectures/lecture-tech-history.png");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
