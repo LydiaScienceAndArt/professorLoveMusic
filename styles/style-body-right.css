@@ -340,6 +340,10 @@ body {
     font-style: italic;
 }
 
+.text-size-24 {
+    font-size: 24px;
+}
+
 .lecture-container {
     margin-top: 30px;
     width: 100%;
