@@ -175,7 +175,7 @@ body {
 }
 
 .section-title {
-    font-size: 24px;
+    font-size: 26px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #045FB4;
@@ -378,15 +378,16 @@ body {
 }
 
 .lecture-title-text {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
+    color: #0174DF;
 }
 
 .lecture-title-icon {
     display: inline-block;
     margin-right: 8px;
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
     background-image: url("../images/lectures/blue-book-icon.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
