@@ -170,8 +170,8 @@ body {
 .section {
     margin-top: 25px;
     padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 100px;
+    padding-left: 100px;
+    padding-right: 120px;
 }
 
 .section-title {
@@ -370,7 +370,7 @@ body {
 }
 
 .lecture-text-container {
-    padding: 50px 20px 20px 20px;
+    padding: 50px 20px 20px 10px;
 }
 
 .lecture-title-container {
