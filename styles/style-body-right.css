@@ -392,6 +392,23 @@ body {
     background-repeat: no-repeat;
 }
 
+.lecture-attachment-container {
+    margin-bottom: 10px;
+}
+
+a.lecture-attachment-link {
+    text-decoration: none;
+    decoration: none;
+}
+
+.lecture-attachment-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/lectures/yellow-file-icon.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .lecture-pic-container {
     padding: 15px;
     width: 100%;
