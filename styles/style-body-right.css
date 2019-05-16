@@ -378,15 +378,15 @@ body {
 }
 
 .lecture-title-text {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .lecture-title-icon {
     display: inline-block;
     margin-right: 8px;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     background-image: url("../images/lectures/blue-book-icon.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
