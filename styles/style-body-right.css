@@ -12,16 +12,15 @@ body {
 }
 
 .top-background-news-page {
-    padding: 20px;
-    margin: auto;
-    height: 200px;
-    width: 80%;
-    background-image: url("../images/flower-background-pic-5.jpg");
+    height: 275px;
+    width: 100%;
+    background-image: url("../images/flower-background-pickar-pic.jpeg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .top-background-about-me-page {
-    height: 300px;
+    height: 275px;
     width: 100%;
     background-image: url("../images/flower-background-pickar-pic.jpeg");
     background-repeat: no-repeat;
@@ -29,21 +28,19 @@ body {
 }
 
 .top-background-useful-links-page {
-    padding: 20px;
-    margin: auto;
-    height: 200px;
-    width: 80%;
-    background-image: url("../images/flower-background-pic-10.jpg");
+    height: 275px;
+    width: 100%;
+    background-image: url("../images/flower-background-pickar-pic.jpeg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .top-background-gardener-page {
-    padding: 20px;
-    margin: auto;
-    height: 200px;
-    width: 80%;
-    background-image: url("../images/flower-background-pic-6.jpg");
+    height: 275px;
+    width: 100%;
+    background-image: url("../images/flower-background-pickar-pic.jpeg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .imageSlides {
