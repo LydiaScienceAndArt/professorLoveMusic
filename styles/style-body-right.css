@@ -27,6 +27,7 @@ body {
     width: 80%;
     background-image: url("../images/flower-background-pickar-pic.jpeg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .top-background-useful-links-page {
