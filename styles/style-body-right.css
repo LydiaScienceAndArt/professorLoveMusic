@@ -437,3 +437,28 @@ a.lecture-attachment-link {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+
+/*Responsive web design: Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    .top-background-news-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .mobile-back-to-navi-icon {
+        position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 80px;
+	width: 90px;
+	background-image: url("../images/mobile-go-back-icon.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 1000;
+    }
+
+}
