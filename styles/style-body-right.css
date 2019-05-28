@@ -234,6 +234,10 @@ body {
    animation-timing-function: ease-in;
 }
 
+#moving-text-4 {
+   animation-timing-function: ease-out;
+}
+
 /* Safari 4.0-8.0 */
 @-webkit-keyframes news-moving-text {
   from {left: 0px;}
