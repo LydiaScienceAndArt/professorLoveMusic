@@ -151,6 +151,7 @@ a:hover, a:active {
         background-image: url("images/mobile-main-navi-icon.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	z-index: 1000;
     }
 
     .sidebar-left-text {
