@@ -25,8 +25,11 @@ body {
     }
 }
 
-.main-navi-icon {
-    display: none;
+/*Responsive web design: Desktop Styles*/
+@media only screen and (min-width: 401px) {
+    .main-navi-icon {
+	display: none;
+    }
 }
 
 .top-background-news-page {
