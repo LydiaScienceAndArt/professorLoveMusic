@@ -11,6 +11,17 @@ body {
     margin: 0;
 }
 
+.main-navi-icon {
+    right: 0px;
+    top: 0px;
+    height: 30px;
+    width: 26px;
+    background-image: url("../images/mobile-main-navi-icon.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1000;
+}
+
 .top-background-news-page {
     height: 275px;
     width: 100%;
