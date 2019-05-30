@@ -11,15 +11,22 @@ body {
     margin: 0;
 }
 
+/*Responsive web design: Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    .main-navi-icon {
+	right: 0px;
+	top: 0px;
+	height: 36px;
+	width: 40px;
+	background-image: url("../images/mobile-main-navi-icon.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 1000;
+    }
+}
+
 .main-navi-icon {
-    right: 0px;
-    top: 0px;
-    height: 30px;
-    width: 26px;
-    background-image: url("../images/mobile-main-navi-icon.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    z-index: 1000;
+    display: none;
 }
 
 .top-background-news-page {
