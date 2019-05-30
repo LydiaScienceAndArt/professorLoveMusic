@@ -40,9 +40,7 @@ body {
     .top-background-news-page {
         height: 275px;
         width: 100%;
-        background-image: url("../images/flower-background-pickar-pic.jpeg");
-        background-repeat: no-repeat;
-        background-size: 40% 100%;
+        /*TODO: add background-image*/
     }
 }
 
