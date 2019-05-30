@@ -36,6 +36,14 @@ body {
         height: 100%;
         background-color: #045FB4;
     }
+
+    .top-background-news-page {
+        height: 275px;
+        width: 100%;
+        background-image: url("../images/flower-background-pickar-pic.jpeg");
+        background-repeat: no-repeat;
+        background-size: 40% 100%;
+    }
 }
 
 /*Responsive web design: Desktop Styles*/
