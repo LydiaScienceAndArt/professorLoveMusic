@@ -44,6 +44,13 @@ body {
 	background-color: yellow;
         /*TODO: add background-image*/
     }
+
+    .section {
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    }
 }
 
 /*Responsive web design: Desktop Styles*/
