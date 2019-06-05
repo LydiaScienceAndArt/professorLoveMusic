@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/*Below is for testing, may remove later*/
+/*
 body, html {
     width: 100%;
     height: 100%;
@@ -129,14 +131,13 @@ a:hover, a:active {
 #test {
    font-size: 40px;
 }
+*/
 
 /*TODO: check whether body(from styles/style-body-right.css) needs to be changed*/
-/*
 body {
     /* below to overwrite user agent stylesheet*/
     margin: 0;
 }
-*/
 
 /*Responsive web design: Mobile Styles*/
 @media only screen and (max-width: 400px) {
