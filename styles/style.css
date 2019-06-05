@@ -126,11 +126,6 @@ a:hover, a:active {
     background-color: white;
     border: none;
 }
-
-/* for test only, remove later*/
-#test {
-   font-size: 40px;
-}
 */
 
 /*TODO: check whether body(from styles/style-body-right.css) needs to be changed*/
