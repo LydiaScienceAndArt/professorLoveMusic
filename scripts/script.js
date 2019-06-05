@@ -2,19 +2,14 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-let mainNaviToggle = document.querySelector('.main-navi-icon');
-let sidebarLeft = document.getElementById('main-navi-bar');
+/*need to wait until elements are loaded and added to DOM*/
+document.addEventListener('DOMContentLoaded', (event) => {
+    checkMainNaviToggle();
+});
 
-// debug:
-let aa = document.getElementById('main-navi-toggle');
-
-console.log("Here");
-console.log(aa);
-console.log(mainNaviToggle);
-
-if (mainNaviToggle) {
-    // debug below:
-    console.log("inside!!");
+function checkMainNaviToggle() {
+    let mainNaviToggle = document.getElementById('main-navi-toggle');
+    let sidebarLeft = document.getElementById('main-navi-bar');
 
     mainNaviToggle.addEventListener('click', function() {
         window.open("mobile-navi-bar.html");
