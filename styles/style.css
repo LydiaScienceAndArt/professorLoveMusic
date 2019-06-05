@@ -137,7 +137,7 @@ body {
 /*Responsive web design: Mobile Styles*/
 @media only screen and (max-width: 400px) {
     .main-navi-icon {
-	position: absolute;
+	position: fixed;
 	right: 0px;
 	top: 0px;
 	height: 36px;
