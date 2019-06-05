@@ -9,12 +9,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
+    let mainNaviToggleCourses = document.getElementById('main-navi-toggle-courses');
     let sidebarLeft = document.getElementById('main-navi-bar');
 
-    mainNaviToggle.addEventListener('click', function() {
-        window.open("index.html");
-	sideBarLeft.classList.toggle('active');
-    });
+    if (mainNaviToggle) {
+	mainNaviToggle.addEventListener('click', function() {
+	    window.open("index.html");
+	    sideBarLeft.classList.toggle('active');
+	});
+    }
+
+    if (mainNaviToggleCourses) {
+	mainNaviToggleCourses.addEventListener('click', function() {
+            window.open("../index.html");
+            sideBarLeft.classList.toggle('active');
+        });
+    }
 }
 
 var imageSlideIndex = 1;
