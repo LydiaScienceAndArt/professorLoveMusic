@@ -2,7 +2,7 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-let mainNaviToggle = document.getElementById('main-navi-toggle');
+var mainNaviToggle = document.getElementById('main-navi-toggle');
 let sidebarLeft = document.getElementById('main-navi-bar');
 
 if (mainNaviToggle) {
