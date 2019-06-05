@@ -14,14 +14,14 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    window.open("index.html");
+	    window.open("index-small-device.html");
 	    sideBarLeft.classList.toggle('active');
 	});
     }
 
     if (mainNaviToggleCourses) {
 	mainNaviToggleCourses.addEventListener('click', function() {
-            window.open("../index.html");
+            window.open("../index-small-device.html");
             sideBarLeft.classList.toggle('active');
         });
     }

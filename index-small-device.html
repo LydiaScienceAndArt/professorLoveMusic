@@ -7,16 +7,16 @@
         <meta name="description" content="professor's homepage">
 
         <!-- mobile responsive design-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS styles-->  
-        <link rel="stylesheet" href="styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
+	<!-- CSS styles-->  
+        <link rel="stylesheet" href="styles/style-original.css">
 
         <!--Javascript files-->
         <script type="text/javascript" src="scripts/script.js"></script>
     </head>
     <body>
         <div id="index-wrapper">
-	    <div class="sidebar-left">
+            <div class="sidebar-left">
 		<div class="profile">
                     <div class="profile-picture">
                         <div class="profile-picture-image"></div>
@@ -30,37 +30,37 @@
                 <div class="navigation-bar">
                     <ul id="navigation-list-main">
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="news.html">
+                            <a class="navigation-item-text sidebar-left-text" href="news.html" target="iframe_display_body">
                                 News
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="about-me.html">
+                            <a class="navigation-item-text sidebar-left-text" href="about-me.html" target="iframe_display_body">
                                 About Me
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="me105/index.html">
+                            <a class="navigation-item-text sidebar-left-text" href="me105/index.html" target="iframe_display_body">
                                 E/MedE/ME 105
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="me103/index.html">
+                            <a class="navigation-item-text sidebar-left-text" href="me103/index.html" target="iframe_display_body">
                                 E/ME 103
                             </a>
                         </li>
 			<li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="e102/index.html">
+                            <a class="navigation-item-text sidebar-left-text" href="e102/index.html" target="iframe_display_body">
                                 E 102
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="useful-links.html">
+                            <a class="navigation-item-text sidebar-left-text" href="useful-links.html" target="iframe_display_body">
                                 Useful Links
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="publications.html">
+                            <a class="navigation-item-text sidebar-left-text" href="publications.html" target="iframe_display_body">
                                 Publications
                             </a>
                         </li>
@@ -68,18 +68,22 @@
                     <hr>
                     <ul id="navigation-list-art">
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="gardener.html">
+                            <a class="navigation-item-text sidebar-left-text" href="gardener.html" target="iframe_display_body">
                                 Gardener
                             </a>
                         </li>
                         <li class="navigation-item">
-                            <a class="navigation-item-text sidebar-left-text" href="interesting-lectures.html">
+                            <a class="navigation-item-text sidebar-left-text" href="interesting-lectures.html" target="iframe_display_body">
                                 Interesting Lectures
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </div>
+            <div class="body-right">
+                <iframe class="iframe-display-body" src="news.html" name="iframe_display_body">
+                </iframe>
+            </div>
+	</div>
     </body>
 </html>
