@@ -15,14 +15,16 @@ function checkMainNaviToggle() {
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
 	    window.open("index-small-device.html");
-	    sideBarLeft.classList.toggle('active');
+	    // TODO: below may not be needed, remove later
+	    // sideBarLeft.classList.toggle('active');
 	});
     }
 
     if (mainNaviToggleCourses) {
 	mainNaviToggleCourses.addEventListener('click', function() {
             window.open("../index-small-device.html");
-            sideBarLeft.classList.toggle('active');
+            // TODO: may remove below later
+	    // sideBarLeft.classList.toggle('active');
         });
     }
 }

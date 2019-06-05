@@ -149,8 +149,7 @@ body {
 	z-index: 1000;
     }
 
-    .sidebar-left {
-        display: none;
+    .sidebar-left-small-device {
         top: 0;
         left: 0;
         position: fixed;
