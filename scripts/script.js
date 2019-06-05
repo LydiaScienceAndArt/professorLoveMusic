@@ -2,7 +2,8 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-let mainNaviToggle = document.getElementsByClassName('main-navi-icon')[0];
+let mainNaviToggleClassArray = document.getElementsByClassName('main-navi-icon');
+let mainNaviToggle = mainNaviToggleClassArray[0];
 let sidebarLeft = document.getElementById('main-navi-bar');
 
 // debug:
