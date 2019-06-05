@@ -2,16 +2,15 @@ function openLinkFromNavigationBar() {
     window.open("home.html","_self");
 }
 
-let mainNaviToggle = document.getElementById('main-navi-toggle');
+let mainNaviToggle = document.getElementsByClassName('main-navi-icon')[0];
 let sidebarLeft = document.getElementById('main-navi-bar');
 
 // debug:
-let aa = document.getElementsByClassName('main-navi-icon');
-let bb = document.getElementsByClassName('section-subtitle');
+let aa = document.getElementById('main-navi-toggle');
 
 console.log("Here");
 console.log(aa);
-console.log(bb);
+console.log(mainNaviToggle);
 
 if (mainNaviToggle) {
     // debug below:
