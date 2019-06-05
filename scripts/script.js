@@ -12,6 +12,7 @@ function checkMainNaviToggle() {
     let sidebarLeft = document.getElementById('main-navi-bar');
 
     mainNaviToggle.addEventListener('click', function() {
-        window.open("mobile-navi-bar.html");
+        window.open("index.html");
+	sideBarLeft.classList.toggle('active');
     });
 }

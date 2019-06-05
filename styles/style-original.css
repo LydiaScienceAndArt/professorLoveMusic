@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#index-wrapper {
+    height: 100%;
+}
+    
+.sidebar-left {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 500;
+    overflow-y: auto;
+    width: 300px;
+    height: 100%;
+    background-color: #045FB4;
+}
+
+.main-navi-icon {
+    display: none;
+}
+
+.sidebar-left-text {
+    color: #A4A4A4;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.body-right {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    overflow-y: auto;
+    left: 300px;
+    height: 100%;
+}
+
+.profile {
+    width: 100%;
+    height: 400px;
+}
+
+.profile-picture {
+    padding-top: 60px;
+    height: 280px;
+}
+
+.profile-picture-image {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/pickar-profile-picture-round.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat:
+    z-index: 1000;
+}
+
+.profile-title {
+    padding-left: 40px;
+    padding-top: 10px;
+    height: 150px;
+}
+
+.profile-name {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.profile-position {
+    padding-top: 8px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-email {
+    padding-top: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.navigation-bar {
+    margin: auto;
+    width: 100%;
+    padding-top: 30px;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation-item {
+    height:32px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.navigation-item-text {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.iframe-display-body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+}
+
+/* for test only, remove later*/
+#test {
+   font-size: 40px;
+}
+
+
+/*Responsive web design: Mobile Styles*/
+@media only screen and (max-width: 400px) {
+    .sidebar-left {
+	display: none;
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 500;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+	background-color: #045FB4;
+    }
+
+    .main-navi-icon {
+	height: 30px;
+	width: 26px;
+        background-image: url("images/mobile-main-navi-icon.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	z-index: 1000;
+    }
+
+    .sidebar-left-text {
+	color: #A4A4A4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+    .body-right {
+	top: 0;
+	left: 0;
+	position: absolute;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+    }
+}
+
