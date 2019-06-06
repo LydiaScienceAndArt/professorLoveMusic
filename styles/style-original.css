@@ -157,14 +157,5 @@ a:hover, a:active {
 	color: #A4A4A4;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     }
-
-    .body-right {
-	top: 0;
-	left: 0;
-	position: absolute;
-	overflow-y: auto;
-	width: 100%;
-	height: 100%;
-    }
 }
 
