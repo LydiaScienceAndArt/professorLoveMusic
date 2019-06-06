@@ -132,7 +132,7 @@ a:hover, a:active {
 
 
 /*Responsive web design: Mobile Styles*/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
     .sidebar-left {
 	top: 0;
 	left: 0;
@@ -145,12 +145,16 @@ a:hover, a:active {
     }
 
     .main-navi-icon {
-	height: 30px;
-	width: 26px;
-        background-image: url("images/mobile-main-navi-icon.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	z-index: 1000;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        height: 36px;
+        width: 40px;
+        cursor: pointer;
+        background-image: url("../images/mobile-main-navi-icon.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1000;
     }
 
     .sidebar-left-text {
