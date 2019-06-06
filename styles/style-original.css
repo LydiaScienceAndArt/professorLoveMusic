@@ -132,8 +132,8 @@ a:hover, a:active {
 
 
 /*Responsive web design: Mobile Styles*/
-@media only screen and (max-width: 400px) {
-    .sidebar-left-small-device {
+@media only screen and (max-width: 900px) {
+    .sidebar-left {
 	top: 0;
 	left: 0;
 	position: fixed;
