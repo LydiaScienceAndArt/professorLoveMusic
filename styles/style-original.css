@@ -162,7 +162,7 @@ a:hover, a:active {
 
     .main-navi-icon {
         position: fixed;
-        right: 0px;
+        left: 0px;
         top: 0px;
         height: 36px;
         width: 40px;
