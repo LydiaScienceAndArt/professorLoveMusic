@@ -11,6 +11,8 @@ function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
     let mainNaviToggleCourses = document.getElementById('main-navi-toggle-courses');
     let sidebarLeft = document.getElementById('main-navi-bar');
+    // below for when main-navi-icon-side-bar exists:
+    let mainNaviToggleSideBar = document.getElementById('main-navi-toggle-side-bar');
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
@@ -26,6 +28,18 @@ function checkMainNaviToggle() {
             // TODO: may remove below later
 	    // sideBarLeft.classList.toggle('active');
         });
+    }
+
+    if (mainNaviToggleSideBar) {
+        let naviSideBarItem = document.getElementById('navi-side-bar-item');
+	
+	naviSideBarItem.addEventListener('click', function() {
+	   let bodyRightContainer = document.getElementById('body-right-container');
+	   let sideBarContainer = document.getElementById('side-bar-container');
+
+	   bodyRightContainer.classList.toggle('body-right-priority-higher');
+	   sideBarContainer.classList.toggle('sidebar-left-priority-lower');
+	});
     }
 }
 
