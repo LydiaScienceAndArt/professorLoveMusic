@@ -14,7 +14,7 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    window.open("index-small-device.html");
+	    window.open("index.html");
 	    // TODO: below may not be needed, remove later
 	    // sideBarLeft.classList.toggle('active');
 	});
@@ -22,7 +22,7 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggleCourses) {
 	mainNaviToggleCourses.addEventListener('click', function() {
-            window.open("../index-small-device.html");
+            window.open("../index.html");
             // TODO: may remove below later
 	    // sideBarLeft.classList.toggle('active');
         });
