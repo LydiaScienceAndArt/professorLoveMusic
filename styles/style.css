@@ -135,7 +135,9 @@ body {
 }
 
 /*Responsive web design: Mobile Styles*/
-@media only screen and (max-width: 400px) {
+/* Notice: we display main-navi-icon only when whole browser screen is less than 400px*/
+/* which means the right iframe body part has only 100px considering side-left-bar is 300px*/
+@media only screen and (max-width: 100px) {
     .main-navi-icon {
 	position: fixed;
 	right: 0px;
