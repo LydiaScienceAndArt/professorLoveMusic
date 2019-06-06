@@ -40,6 +40,14 @@ function checkMainNaviToggle() {
 	   bodyRightContainer.classList.toggle('body-right-priority-higher');
 	   sideBarContainer.classList.toggle('sidebar-left-priority-lower');
 	});
+    } else {
+	let bodyRightContainer = document.getElementById('body-right-container');
+        let sideBarContainer = document.getElementById('side-bar-container');
+
+        if (bodyRightContainer.classList.contains('body-right-priority-higher') {
+            bodyRightContainer.classList.toggle('body-right');
+            sideBarContainer.classList.toggle('sidebar-left');
+        }
     }
 }
 
