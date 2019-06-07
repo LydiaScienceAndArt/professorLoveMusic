@@ -171,9 +171,28 @@ body {
         position: fixed;
         z-index: 500;
         overflow-y: auto;
-        width: 70%;
-        height: 100%;
+        width: 250px;
+        height: 400px;
         background-color: #045FB4;
+    }
+
+    .sidebar-right-small-device-on ul {
+        list-style-type: none;
+    }
+
+    .sidebar-right-small-device-on li {
+        padding-top: 8px;
+    }
+
+    .sidebar-right-small-device-on a:hover, a:active {
+        text-decoration: none;
+        color: #4CAF50;
+    }
+
+    .sidebar-right-small-device-on a:link, a:visited {
+        text-decoration: underline;
+        color: #848484;
+        font-weight: bold;
     }
 
     .sidebar-right-text {

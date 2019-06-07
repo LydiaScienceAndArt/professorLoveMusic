@@ -169,8 +169,8 @@ a:hover, a:active {
         position: fixed;
         z-index: 500;
         overflow-y: auto;
-        width: 70%;
-        height: 100%;
+        width: 250px;
+        height: 400px;
         background-color: #045FB4;
     }
 
