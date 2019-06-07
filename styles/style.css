@@ -14,6 +14,10 @@ body, html {
     height: 100%;
 }
 
+.main-navi-icon {
+    display: none;
+}
+
 .sidebar-left {
     top: 0;
     left: 0;
@@ -200,6 +204,7 @@ body {
 }
 
 /*Responsive web design: Desktop Styles*/
+/*
 @media only screen and (min-width: 701px) {
     .main-navi-icon {
 	display: none;
@@ -213,6 +218,7 @@ body {
 	background-size: 100% 100%;
     }
 }
+*/
 
 .top-background-about-me-page {
     height: 275px;
