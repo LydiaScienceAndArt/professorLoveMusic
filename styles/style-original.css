@@ -190,37 +190,3 @@ a:hover, a:active {
     }
 }
 
-/*
-@media only screen and (min-width: 1001px) {
-    .sidebar-left {
-        top: 0;
-        left: 0;
-        position: fixed;
-        z-index: 500;
-        overflow-y: auto;
-        width: 100%;
-        height: 100%;
-        background-color: #045FB4;
-    }
-
-    /*for larger screen, hide main-navi-icon*/
-    .main-navi-icon {
-        display: none;
-    }
-
-    .sidebar-left-text {
-        color: #A4A4A4;
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    }
-
-    .body-right {
-	margin: 0;
-	padding: 0;
-	top: 0;
-	right: 0;
-	position: absolute;
-	overflow-y: auto;
-	left: 300px;
-	height: 100%;
-    }
-}*/
