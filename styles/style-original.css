@@ -223,20 +223,6 @@ a:hover, a:active {
     .main-navi-icon {
         display: none;
     }
-    /*
-    .main-navi-icon {
-        position: fixed;
-        right: 0px;
-        top: 0px;
-        height: 36px;
-        width: 40px;
-        cursor: pointer;
-        background-image: url("images/mobile-main-navi-icon.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1000;
-    }
-    */
 
     .sidebar-left-text {
         color: #A4A4A4;
