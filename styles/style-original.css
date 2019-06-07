@@ -135,7 +135,10 @@ a:hover, a:active {
 @media only screen and (max-width: 1000px) {
     /*hide left bar, use new one for small screen*/
     .sidebar-left {
-        display: none;
+        left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 0px;
     }
 
     .main-navi-icon {
@@ -183,11 +186,6 @@ a:hover, a:active {
         overflow-y: auto;
         width: 100%;
         height: 100%;
-    }
-    
-    .sidebar-left-text {
-	color: #A4A4A4;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     }
 }
 
