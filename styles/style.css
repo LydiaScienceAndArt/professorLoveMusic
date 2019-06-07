@@ -138,6 +138,8 @@ body {
 /* Notice: we display main-navi-icon only when whole browser screen is less than 900px*/
 /* which means the right iframe body part has only 100px considering side-left-bar is 600px*/
 @media only screen and (max-width: 700px) {
+    /*TEST below, uncomment for now*/
+    /*
     .main-navi-icon {
 	position: fixed;
 	right: 0px;
@@ -149,7 +151,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	z-index: 1000;
-    }
+    }*/
 
     .sidebar-left {
         display: none;
