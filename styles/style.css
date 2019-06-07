@@ -228,6 +228,14 @@ body {
     background-size: 100% 100%;
 }
 
+.top-background-courses-page {
+    height: 275px;
+    width: 100%;
+    background-image: url("../../images/flower-background-pickar-pic.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .top-background-about-me-page {
     height: 275px;
     width: 100%;
