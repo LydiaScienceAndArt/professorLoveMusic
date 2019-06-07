@@ -14,24 +14,24 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
-	        sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+	    if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
+	        sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
 	    }
 
-	    if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
-                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+	    if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
+                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
             }
 	});
     }
 
     if (mainNaviToggleCourses) {
 	mainNaviToggleCourses.addEventListener('click', function() {
-            if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
-                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+            if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
+                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
             }
            
-            if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
-                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+            if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
+                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
             }
 	});
     }
