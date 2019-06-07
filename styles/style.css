@@ -31,7 +31,7 @@ body, html {
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 701px) {
     .main-navi-icon {
         display: none;
     }
@@ -145,7 +145,7 @@ body {
 /*Responsive web design: Mobile Styles*/
 /* Notice: we display main-navi-icon only when whole browser screen is less than 900px*/
 /* which means the right iframe body part has only 100px considering side-left-bar is 600px*/
-@media only screen and (max-width: 600px) and (min-width: 101px) {
+@media only screen and (max-width: 700px) {
     .main-navi-icon {
 	position: fixed;
 	right: 0px;
@@ -159,24 +159,31 @@ body {
 	z-index: 1000;
     }
 
-    .sidebar-left-small-device {
+    .sidebar-left {
+        display: none;
+    }
+
+    .sidebar-right-small-device-off {
+        display: none;
+    }
+
+    .sidebar-right-small-device-on {
+	display: block;
         top: 0;
-        left: 0;
+        right: 0;
         position: fixed;
         z-index: 500;
         overflow-y: auto;
-        width: 100%;
+        width: 70%;
         height: 100%;
         background-color: #045FB4;
     }
 
-    .active {
-        display: block;
-    }
-
-    .sidebar-left-text {
+    .sidebar-right-text {
         color: #A4A4A4;
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	text-align: left;
     }
 
     .body-right {

@@ -10,44 +10,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
 function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
     let mainNaviToggleCourses = document.getElementById('main-navi-toggle-courses');
-    let sidebarLeft = document.getElementById('main-navi-bar');
-    // below for when main-navi-icon-side-bar exists:
-    let mainNaviToggleSideBar = document.getElementById('main-navi-toggle-side-bar');
+    let sidebarRightSmallDevice = document.getElementById('sidebar-right-small-device');
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    window.open("index.html");
-	    // TODO: below may not be needed, remove later
-	    // sideBarLeft.classList.toggle('active');
+	    if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
+	        sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+	    }
+
+	    if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
+                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+            }
 	});
     }
 
     if (mainNaviToggleCourses) {
 	mainNaviToggleCourses.addEventListener('click', function() {
-            window.open("../index.html");
-            // TODO: may remove below later
-	    // sideBarLeft.classList.toggle('active');
-        });
-    }
-
-    if (mainNaviToggleSideBar) {
-        let naviSideBarItem = document.getElementById('navi-side-bar-item');
-	
-	naviSideBarItem.addEventListener('click', function() {
-	   let bodyRightContainer = document.getElementById('body-right-container');
-	   let sideBarContainer = document.getElementById('side-bar-container');
-
-	   bodyRightContainer.classList.toggle('body-right-priority-higher');
-	   sideBarContainer.classList.toggle('sidebar-left-priority-lower');
+            if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
+                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+            }
+           
+            if (sideBarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
+                sideBarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+            }
 	});
-    } else {
-	let bodyRightContainer = document.getElementById('body-right-container');
-        let sideBarContainer = document.getElementById('side-bar-container');
-
-        if (bodyRightContainer.classList.contains('body-right-priority-higher') {
-            bodyRightContainer.classList.toggle('body-right');
-            sideBarContainer.classList.toggle('sidebar-left');
-        }
     }
 }
 

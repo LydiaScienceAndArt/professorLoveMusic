@@ -148,16 +148,10 @@ a:hover, a:active {
 
 
 /*Responsive web design: Mobile Styles*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1000px) {
+    /*hide left bar, use new one for small screen*/
     .sidebar-left {
-	top: 0;
-	left: 0;
-	position: fixed;
-	z-index: 500;
-	overflow-y: auto;
-	width: 100%;
-	height: 100%;
-	background-color: #045FB4;
+        display: none;
     }
 
     .main-navi-icon {
@@ -173,13 +167,47 @@ a:hover, a:active {
         z-index: 1000;
     }
 
+    .sidebar-right-small-device-off {
+        display: none;
+    }
+
+    .sidebar-right-small-device-on {
+        display: block;
+        top: 0;
+        right: 0;
+        position: fixed;
+        z-index: 500;
+        overflow-y: auto;
+        width: 70%;
+        height: 100%;
+        background-color: #045FB4;
+    }
+
+    .sidebar-right-text {
+        color: #A4A4A4;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .body-right {
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        position: absolute;
+        overflow-y: auto;
+        width: 100%;
+        height: 100%;
+    }
+    
     .sidebar-left-text {
 	color: #A4A4A4;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 1001px) {
     .sidebar-left {
         top: 0;
         left: 0;
@@ -191,6 +219,11 @@ a:hover, a:active {
         background-color: #045FB4;
     }
 
+    /*for larger screen, hide main-navi-icon*/
+    .main-navi-icon {
+        display: none;
+    }
+    /*
     .main-navi-icon {
         position: fixed;
         right: 0px;
@@ -203,6 +236,7 @@ a:hover, a:active {
         background-size: 100% 100%;
         z-index: 1000;
     }
+    */
 
     .sidebar-left-text {
         color: #A4A4A4;
