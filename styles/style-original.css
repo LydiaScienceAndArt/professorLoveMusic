@@ -23,9 +23,11 @@ body, html {
     background-color: #045FB4;
 }
 
+/*
 .main-navi-icon {
     display: none;
 }
+*/
 
 .sidebar-left-text {
     color: #A4A4A4;
@@ -141,6 +143,7 @@ a:hover, a:active {
 	width: 0px;
     }
 
+    /*
     .main-navi-icon {
         display: block;
 	position: fixed;
@@ -153,7 +156,7 @@ a:hover, a:active {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         z-index: 1000;
-    }
+    }*/
 
     .sidebar-right-small-device-off {
         display: none;
