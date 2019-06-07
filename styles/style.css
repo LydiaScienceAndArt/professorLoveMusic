@@ -186,6 +186,7 @@ body {
     .body-right {
         top: 0;
         left: 0;
+	right: 0;
         position: absolute;
         overflow-y: auto;
         width: 100%;
