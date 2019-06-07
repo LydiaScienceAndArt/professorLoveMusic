@@ -25,18 +25,6 @@ body, html {
     background-color: #045FB4;
 }
 
-@media only screen and (max-width: 100px) {
-    .main-navi-icon {
-	display: none;
-    }
-}
-
-@media only screen and (min-width: 701px) {
-    .main-navi-icon {
-        display: none;
-    }
-}
-
 .sidebar-left-text {
     color: #A4A4A4;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -212,7 +200,7 @@ body {
 }
 
 /*Responsive web design: Desktop Styles*/
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 701px) {
     .main-navi-icon {
 	display: none;
     }
@@ -649,27 +637,3 @@ a.lecture-attachment-link {
     background-size: 100% 100%;
 }
 
-
-/*Responsive web design: Mobile Styles*/
-@media only screen and (max-width: 400px) {
-    .top-background-news-page {
-	height: 275px;
-	width: 100%;
-	background-image: url("../images/flower-background-pickar-pic.jpeg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-    }
-
-    .mobile-back-to-navi-icon {
-        position: fixed;
-	top: 0px;
-	right: 0px;
-	height: 80px;
-	width: 90px;
-	background-image: url("../images/mobile-go-back-icon.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	z-index: 1000;
-    }
-
-}
