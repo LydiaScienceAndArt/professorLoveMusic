@@ -12,6 +12,7 @@ function checkMainNaviToggle() {
     let mainNaviToggleMiddleDevice = document.getElementById('main-navi-toggle-middle-device');
     let sidebarRightSmallDevice = document.getElementById('sidebar-right-small-device');
     let sidebarLeftMiddleDevice = document.getElementById('sidebar-left-container');
+    let bodyRightContainer = document.getElementById('body-right-container');
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
@@ -27,12 +28,15 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggleMiddleDevice) {
 	mainNaviToggleMiddleDevice.addEventListener('click', function() {
-            if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
+            /*Notice: below sidebar-left is "display: none"*/
+	    if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
                 sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
-            }
+                bodyRightContainer.classList.toggle('body-right-middle-device-with-sidebar-left'); 
+	    }
            
             if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
                 sidebarLeftMiddleDevice.classList.toggle('sidebar-left');
+		bodyRightContainer.classList.toggle('body-right');     
             }
 	});
     }
