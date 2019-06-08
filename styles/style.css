@@ -186,6 +186,7 @@ body {
 
     .sidebar-right-small-device-on ul {
         list-style-type: none;
+	margin-top: 5px;
     }
 
     .sidebar-right-small-device-on li {
@@ -198,7 +199,7 @@ body {
     }
 
     .sidebar-right-small-device-on a:link, a:visited {
-        text-decoration: underline;
+        text-decoration: none;
         color: #848484;
         font-weight: bold;
     }
@@ -238,8 +239,8 @@ body {
     }
 
     .profile-name {
-	text-align: center;
-	padding-left: 40px;
+	text-align: left;
+	padding-left: 48px;
 	font-size: 20px;
 	font-weight: bold;
     }
