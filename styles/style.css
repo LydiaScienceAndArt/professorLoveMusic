@@ -273,7 +273,7 @@ body {
     }
 
     .lecture-container {
-	margin-top: 15px;
+	margin-top: 10px;
 	width: 100%;
 	height: 300px;
 	font-size: 16.5px;
@@ -296,7 +296,7 @@ body {
     }
 
     .lecture-text-container {
-	padding: 25x 10px 10px 10px;
+	padding: 15x 8px 8px 8px;
     }
 
     .lecture-title-container {
@@ -330,6 +330,12 @@ body {
 	background-image: url("../images/lectures/yellow-file-icon.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+    }
+
+    .lecture-pic-container {
+        padding: 15px;
+        width: 100%;
+        height: 100%;
     }
 
     .moving-text {
