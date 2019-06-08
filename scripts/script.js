@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
-    let mainNaviToggleMiddleDevice = document.getElementById('main-navi-toggle-middle-device');
     let sidebarRightSmallDevice = document.getElementById('sidebar-right-small-device');
     let sidebarLeftMiddleDevice = document.getElementById('sidebar-left-container');
     let bodyRightContainer = document.getElementById('body-right-container');
@@ -26,8 +25,8 @@ function checkMainNaviToggle() {
 	});
     }
 
-    if (mainNaviToggleMiddleDevice) {
-	mainNaviToggleMiddleDevice.addEventListener('click', function() {
+    if (mainNaviToggle) {
+	mainNaviToggle.addEventListener('click', function() {
             /*Notice: below sidebar-left is "display: none"*/
 	    if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
                 sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');

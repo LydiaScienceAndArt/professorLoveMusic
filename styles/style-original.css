@@ -16,6 +16,10 @@ body, html {
     .main-navi-icon {
         display: none;
     }
+
+    .sidebar-right-small-device-off {
+        display: none;
+    }
     
     .sidebar-left {
 	top: 0;
@@ -150,7 +154,11 @@ a:hover, a:active {
         background-size: 100% 100%;
         z-index: 1000;
     }
-    
+ 
+    .sidebar-right-small-device-off {
+        display: none;
+    }
+
     .sidebar-left {
         display: none;
     }
@@ -200,6 +208,88 @@ a:hover, a:active {
 
     .sidebar-left {
         display: none;
+    }
+
+    .sidebar-right-small-device-off {
+        display: none;
+    }
+
+    .sidebar-right-small-device-on {
+        top: 0;
+        right: 0;
+        position: fixed;
+        z-index: 500;
+        overflow-y: auto;
+        width: 280px;
+        height: 500px;
+        background-color: #045FB4;
+    }
+
+    .sidebar-right-small-device-on ul {
+        list-style-type: none;
+        margin-top: 5px;
+    }
+
+    .sidebar-right-small-device-on li {
+        padding-top: 8px;
+    }
+
+    .sidebar-right-small-device-on a:hover, a:active {
+        text-decoration: none;
+        color: #4CAF50;
+    }
+
+    .sidebar-right-small-device-on a:link, a:visited {
+        text-decoration: none;
+        color: #848484;
+        font-weight: bold;
+    }
+
+    .sidebar-right-text {
+        padding-top: 20px;
+        color: #A4A4A4;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .profile {
+        width: 100%;
+        height: 200px;
+    }
+
+    .profile-picture {
+        padding-top: 8px;
+        height: 120px;
+    }
+
+    .profile-picture-image {
+        margin: auto;
+        width: 110px;
+        height: 110px;
+        background-image: url("../images/pickar-profile-picture-round.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat:
+        z-index: 800;
+    }
+
+    .profile-title {
+        padding-left: 40px;
+        padding-top: 8px;
+        height: 80px;
+    }
+
+    .profile-name {
+        text-align: left;
+        padding-left: 48px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .profile-email {
+        padding-top: 8px;
+        text-align: left;
+        font-size: 16px;
     }
 
     .body-right {
