@@ -12,22 +12,18 @@ body, html {
     height: 100%;
 }
 
-.sidebar-left {
-    top: 0;
-    left: 0;
-    position: fixed;
-    z-index: 500;
-    overflow-y: auto;
-    width: 300px;
-    height: 100%;
-    background-color: #045FB4;
+@media (min-width: 801px) {
+    .sidebar-left {
+	top: 0;
+	left: 0;
+	position: fixed;
+	z-index: 500;
+	overflow-y: auto;
+	width: 300px;
+	height: 100%;
+	background-color: #045FB4;
+    }
 }
-
-/*
-.main-navi-icon {
-    display: none;
-}
-*/
 
 .sidebar-left-text {
     color: #A4A4A4;
@@ -135,12 +131,8 @@ a:hover, a:active {
 
 /*Responsive web design: Mobile Styles*/
 @media only screen and (max-width: 800px) {
-    /*hide left bar, use new one for small screen*/
     .sidebar-left {
-        left: 0px;
-	top: 0px;
-	height: 0px;
-	width: 0px;
+        display: none;
     }
 
     /*
