@@ -34,7 +34,7 @@ body, html {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.sidebar-right-small-device-off {
+.sidebar-right-small-device-off div {
     display: none;
 }
 
@@ -173,9 +173,9 @@ body {
     }
 
     .sidebar-right-small-device-on {
-	display: block;
-        top: 0;
-        right: 0;
+        display: none;
+	top: 0;
+	right: 0;
         position: fixed;
         z-index: 500;
         overflow-y: auto;
