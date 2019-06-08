@@ -34,12 +34,10 @@ body, html {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-.sidebar-right-small-device-off div {
-    display: none;
-}
-
-.sidebar-right-small-device-on {
-    display: none;
+@media (min-width: 801px) {
+    .sidebar-right-small-device-off {
+        display: none;
+    }
 }
 
 .body-right {
