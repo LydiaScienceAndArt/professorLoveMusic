@@ -265,11 +265,168 @@ body {
     }
 
     .section {
-	margin-top: 10px;
-	padding-top: 20px;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
     }
+
+    .section-title {
+	font-size: 26px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #045FB4;
+    }
+
+    .section-subtitle {
+	padding-top: 6px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #0174DF;
+    }
+
+    .section-content {
+	padding-top: 5px;
+	font-size: 15px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+    }
+
+    .garden-pic-container {
+	width: 250px;
+	height: 187px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+    }
+
+    .garden-pic {
+	width: 100%;
+	border-radius: 10px;
+    }
+
+    .previous, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 10px;
+	margin-top: -10px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+    }
+
+    .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+    }
+
+    .previous:hover, .next:hover {
+	background-color: rgba(0,0,0,0.5);
+    }
+
+    .image-select-dot {
+	text-align: center;
+	padding-top: 10px;
+    }
+
+    .select-dot {
+	cursor: pointer;
+	height: 5px;
+	width: 5px;
+	margin: 0 2px;
+	background-color: #BBBBBB;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+    }
+
+    .active, .select-dot:hover {
+	background-color: #4C4C4C;
+    }
+
+    .music-box {
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+	height: 60px;
+    }
+
+    .music-text {
+	font-style: italic;
+	font-weight: bold;
+	font-color: #3A3C3E;
+    }
+
+    .lecture-container {
+	margin-top: 15px;
+	width: 100%;
+	height: 300px;
+	font-size: 16.5px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+    }
+
+    .lecture-sub-container-1 {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+    }
+
+    .lecture-sub-container-2 {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 10px;
+    }
+
+    .lecture-text-container {
+	padding: 25x 10px 10px 10px;
+    }
+
+    .lecture-title-container {
+	width: 100%;
+    }
+
+    .lecture-title-text {
+	font-size: 18px;
+	font-weight: bold;
+	color: #0174DF;
+    }
+
+    .lecture-title-icon {
+	display: inline-block;
+	margin-right: 6px;
+	width: 16px;
+	height: 16px;
+	background-image: url("../images/lectures/blue-book-icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    }
+
+    .lecture-attachment-container {
+	margin-bottom: 0px;
+    }
+
+    .lecture-attachment-icon {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url("../images/lectures/yellow-file-icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    }
+
 }
 
 /*Responsive web design: Desktop Styles*/
