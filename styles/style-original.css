@@ -138,7 +138,8 @@ a:hover, a:active {
     .main-navi-icon {
         display: block;
         position: fixed;
-        -webkit-backface-visibility: hidden;
+	/*TODO: not sure whether below is useful to solve position:fixed in mobile*/
+        /*-webkit-backface-visibility: hidden;*/
         right: 0px;
         top: 0px;
         height: 36px;
