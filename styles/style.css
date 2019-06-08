@@ -613,6 +613,10 @@ body {
 	display: none;
     }
 
+    .sidebar-right-small-device-off {
+        display: none;
+    }
+
     .top-background-news-page {
 	height: 275px;
 	width: 100%;
