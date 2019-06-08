@@ -199,19 +199,7 @@ a:hover, a:active {
 /*Responsive web design: Mobile Styles - small devices*/
 @media (max-width: 800px) {
     .main-navi-icon {
-        display: block;
-        position: fixed;
-        /*TODO: not sure whether below is useful to solve position:fixed in mobile*/
-        /*-webkit-backface-visibility: hidden;*/
-        right: 0px;
-        top: 0px;
-        height: 36px;
-        width: 40px;
-        cursor: pointer;
-        background-image: url("../images/mobile-main-navi-icon.png");
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1000;
+        display: none;
     }
 
     .sidebar-left {
