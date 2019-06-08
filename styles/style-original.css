@@ -17,7 +17,6 @@ body, html {
     left: 0;
     position: fixed;
     z-index: 500;
-    overflow-x: hidden;
     overflow-y: auto;
     width: 300px;
     height: 100%;
@@ -41,7 +40,6 @@ body, html {
     top: 0;
     right: 0;
     position: absolute;
-    overflow-x: hidden;
     overflow-y: auto;
     left: 300px;
     height: 100%;
@@ -191,7 +189,6 @@ a:hover, a:active {
 	right: 0;
         position: absolute;
         overflow-y: auto;
-	overflow-x: hidden;
 	/*Below is for scrolling on mobile devices*/
         -webkit-overflow-scrolling: touch;
 	width: 100%;
