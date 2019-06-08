@@ -171,8 +171,8 @@ body {
         position: fixed;
         z-index: 500;
         overflow-y: auto;
-        width: 250px;
-        height: 450px;
+        width: 280px;
+        height: 5000px;
         background-color: #045FB4;
     }
 
@@ -196,6 +196,7 @@ body {
     }
 
     .sidebar-right-text {
+	padding-top: 20px;
         color: #A4A4A4;
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
@@ -223,7 +224,7 @@ body {
     }
 
     .profile-title {
-	padding-left: 10px;
+	padding-left: 35px;
 	padding-top: 8px;
 	height: 80px;
     }
