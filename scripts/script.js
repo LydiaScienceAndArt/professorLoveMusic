@@ -28,7 +28,7 @@ function checkMainNaviToggle() {
     if (mainNaviToggleMiddleDevice) {
 	mainNaviToggleMiddleDevice.addEventListener('click', function() {
             if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
-                sidebarLeftSmallDevice.classList.toggle('sidebar-left-middle-device-on');
+                sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
             }
            
             if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
