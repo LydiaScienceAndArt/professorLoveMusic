@@ -169,7 +169,6 @@ body {
     }
 
     .sidebar-right-small-device-on {
-        display: none;
 	top: 0;
 	right: 0;
         position: fixed;
