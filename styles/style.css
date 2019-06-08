@@ -769,13 +769,13 @@ body {
 /* Safari 4.0-8.0 */
 @-webkit-keyframes news-moving-text {
   from {left: 0px;}
-  to {left: 200px;}
+  to {right: 100px;}
 } 
 
 /* Standard syntax */
 @keyframes news-moving-text {
   from {left: 0px;}
-  to {left: 200px;}
+  to {right: 100px;}
 }
 
 .garden-pic-container {
