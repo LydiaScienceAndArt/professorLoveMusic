@@ -430,8 +430,7 @@ body {
 }
 
 /*Responsive web design: Desktop Styles*/
-/*
-@media only screen and (min-width: 701px) {
+@media (min-width: 801px) {
     .main-navi-icon {
 	display: none;
     }
@@ -444,8 +443,8 @@ body {
 	background-size: 100% 100%;
     }
 }
-*/
 
+/*
 .top-background-news-page {
     height: 275px;
     width: 100%;
@@ -453,6 +452,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+*/
 
 .top-background-courses-page {
     height: 275px;
