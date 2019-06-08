@@ -39,6 +39,7 @@ body {
     .main-navi-icon {
 	display: block;
 	position: fixed;
+	-webkit-backface-visibility: hidden;
 	right: 0px;
 	top: 0px;
 	height: 36px;
