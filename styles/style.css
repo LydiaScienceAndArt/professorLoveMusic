@@ -172,7 +172,7 @@ body {
         z-index: 500;
         overflow-y: auto;
         width: 250px;
-        height: 400px;
+        height: 450px;
         background-color: #045FB4;
     }
 
@@ -200,6 +200,51 @@ body {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	text-align: left;
+    }
+
+    .profile {
+	width: 100%;
+	height: 200px;
+    }
+
+    .profile-picture {
+	padding-top: 8px;
+	height: 120px;
+    }
+
+    .profile-picture-image {
+	margin: auto;
+	width: 110px;
+	height: 110px;
+	background-image: url("../images/pickar-profile-picture-round.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat:
+	z-index: 800;
+    }
+
+    .profile-title {
+	padding-left: 10px;
+	padding-top: 8px;
+	height: 80px;
+    }
+
+    .profile-name {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+    }
+
+    .profile-position {
+	padding-top: 8px;
+	text-align: left;
+	font-size: 18px;
+	font-weight: bold;
+    }
+
+    .profile-email {
+	padding-top: 8px;
+	text-align: left;
+	font-size: 16px;
     }
 
     .body-right {
