@@ -3,7 +3,6 @@
 }
 
 body, html {
-    /**Below is to set width to be 100% of viewport's width/
     width: 100%;
     height: 100%;
     overflow: hidden;
