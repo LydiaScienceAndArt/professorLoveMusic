@@ -1,93 +1,150 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <!--css stylesheet-->
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- Javascript files-->
-    <script type="text/javascript" src="scripts/script.js"></script>
-</head>
-<body>
-    <div class="main-navi-icon" id="main-navi-toggle">
-    </div>
-    <div class="top-background-gardener-page">
-    </div>
-    <div class="section">
-        <div class="section-title">Gardener</div>
-        <div class="section-content">
-            My garden was filmed over a couple of years by Tom von logue Newth, an English/ LA filmmaker. First, a 5 minute trailer for the video of the garden: <a href="https://vimeo.com/104243171" target="_blank">Trailer</a>, no password. <br>
-            Secondly, if you are in a thoroughly mellow mood there is the 1 hour version - a lightly guided tour of the garden in all seasons, times of day and weather: <a href="https://vimeo.com/103893556" target="_blank">Tour</a>, password is garden. <br>
-            <hr>
-            Below are a few pictures of my garden!
+    <head>
+	<!--css stylesheet-->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- Javascript files-->
+	<script type="text/javascript" src="scripts/script.js"></script>
+    </head>
+    <body>
+        <div class="main-navi-icon" id="main-navi-toggle">
         </div>
-    </div>
-    <div class="section">
-        <div class="garden-pic-container">
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-1.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-2.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-3.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-4.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-5.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-6.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-7.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-8.jpg" class="garden-pic">
-            </div>
-             <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-9.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-10.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-11.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-12.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-13.jpg" class="garden-pic">
-            </div>
-            <div class="imageSlides fade">
-                <img src="images/Ken-Garden/garden-14.jpg" class="garden-pic">
-            </div>
-            <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<div class="sidebar-right-small-device-off" id="sidebar-right-small-device">
+	    <div class="profile sidebar-right-text">
+		<div class="profile-picture">
+		    <div class="profile-picture-image"></div>
+		</div>
+		<div class="profile-title">
+		    <div class="profile-name">Ken Pickar</div>
+		    <a class="profile-email" href="mailto:pickar@caltech.edu" target="_blank">Email: pickar@caltech.edu</a>
+		</div>
+	    </div>
+	    <ul class="sidebar-right-text">
+		<li>
+		    <a href="news.html">
+			News
+		    </a>
+		</li>
+		    <a href="about-me.html">
+			About Me
+		    </a>
+		</li>
+		<li>
+		    <a href="me105/index.html">
+			E/MedE/ME 105
+		    </a>
+		</li>
+		<li>
+		    <a href="me103/index.html">
+			E/ME 103
+		    </a>
+		</li>
+		<li>
+		    <a href="e102/index.html">
+			E 102
+		    </a>
+		</li>
+		<li>
+		    <a href="useful-links.html">
+			Useful Links
+		    </a>
+		</li>
+		<li>
+		    <a href="publications.html">
+			Publications
+		    </a>
+		</li>
+		<li>
+		    <a href="gardener.html">
+			Gardener
+		    </a>
+		</li>
+		<li>
+		    <a href="interesting-lectures.html">
+			Interesting Lectures
+		    </a>
+		</li>
+	    </ul>
         </div>
-        <div class="image-select-dot">
-            <span class="select-dot" onclick="selectCurrentSlide(1)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(2)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(3)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(4)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(5)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(6)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(7)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(8)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(9)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(10)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(11)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(12)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(13)"></span>
-            <span class="select-dot" onclick="selectCurrentSlide(14)"></span>
-        </div>
-    </div>
-    <div class="music-box">
-        <p class="music-text"> Johann Sebastian Bach Air on the G String From Suite No. 3 </p>
-        <audio id="orchestra-background-music" src="music/Air-on-a-g-string.mp3" controls autoplay>
-        </audio>
-    </div>
-</body>
+	<div class="top-background-gardener-page">
+	</div>
+	<div class="section">
+	    <div class="section-title">Gardener</div>
+	    <div class="section-content">
+		My garden was filmed over a couple of years by Tom von logue Newth, an English/ LA filmmaker. First, a 5 minute trailer for the video of the garden: <a href="https://vimeo.com/104243171" target="_blank">Trailer</a>, no password. <br>
+		Secondly, if you are in a thoroughly mellow mood there is the 1 hour version - a lightly guided tour of the garden in all seasons, times of day and weather: <a href="https://vimeo.com/103893556" target="_blank">Tour</a>, password is garden. <br>
+		<hr>
+		Below are a few pictures of my garden!
+	    </div>
+	</div>
+	<div class="section">
+	    <div class="garden-pic-container">
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-1.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-2.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-3.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-4.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-5.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-6.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-7.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-8.jpg" class="garden-pic">
+		</div>
+		 <div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-9.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-10.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-11.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-12.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-13.jpg" class="garden-pic">
+		</div>
+		<div class="imageSlides fade">
+		    <img src="images/Ken-Garden/garden-14.jpg" class="garden-pic">
+		</div>
+		<a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	    </div>
+	    <div class="image-select-dot">
+		<span class="select-dot" onclick="selectCurrentSlide(1)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(2)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(3)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(4)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(5)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(6)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(7)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(8)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(9)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(10)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(11)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(12)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(13)"></span>
+		<span class="select-dot" onclick="selectCurrentSlide(14)"></span>
+	    </div>
+	</div>
+	<div class="music-box">
+	    <p class="music-text"> Johann Sebastian Bach Air on the G String From Suite No. 3 </p>
+	    <audio id="orchestra-background-music" src="music/Air-on-a-g-string.mp3" controls autoplay>
+	    </audio>
+	</div>
+    </body>
 </html>

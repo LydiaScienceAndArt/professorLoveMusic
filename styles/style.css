@@ -345,6 +345,47 @@ body {
 	background-repeat: no-repeat;
     }
 
+    .moving-text {
+	color: #848484;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	animation-name: news-moving-text;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	/* for Safari 4.0-8.0: */
+	-webkit-animation-name: news-moving-text;
+	-webkit-animatinn-duration: 4s;
+	-webkit-animation-fill-mode: forwards;
+    }
+
+    #moving-text-1 {
+        animation-timing-function: linear;
+    }
+
+    #moving-text-2 {
+        animation-timing-function: ease;
+    }
+
+    #moving-text-3 {
+        animation-timing-function: ease-in;
+    }
+
+    #moving-text-4 {
+        animation-timing-function: ease-out;
+    }
+
+    /* Safari 4.0-8.0 */
+    @-webkit-keyframes news-moving-text {
+        from {left: 0px;}
+        to {left: 20px;}
+    }
+
+    /* Standard syntax */
+    @keyframes news-moving-text {
+        from {left: 0px;}
+        to {left: 20px;}
+    }
 }
 
 @media (min-width: 451px) and (max-width: 800px) {
@@ -522,6 +563,48 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #848484;
     }
+
+    .moving-text {
+	color: #848484;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	animation-name: news-moving-text;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	/* for Safari 4.0-8.0: */
+	-webkit-animation-name: news-moving-text;
+	-webkit-animatinn-duration: 4s;
+	-webkit-animation-fill-mode: forwards;
+    }
+
+    #moving-text-1 {
+        animation-timing-function: linear;
+    }
+
+    #moving-text-2 {
+        animation-timing-function: ease;
+    }
+
+    #moving-text-3 {
+        animation-timing-function: ease-in;
+    }
+
+    #moving-text-4 {
+        animation-timing-function: ease-out;
+    }
+
+    /* Safari 4.0-8.0 */
+    @-webkit-keyframes news-moving-text {
+    from {left: 0px;}
+        to {left: 50px;}
+    }
+
+    /* Standard syntax */
+    @keyframes news-moving-text {
+        from {left: 0px;}
+        to {left: 50px;}
+    }
 }
 
 /*Responsive web design: Desktop Styles*/
@@ -598,11 +681,53 @@ body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #848484;
     }
+
+    .moving-text {
+	color: #848484;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	position: relative;
+	animation-name: news-moving-text;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	/* for Safari 4.0-8.0: */
+	-webkit-animation-name: news-moving-text;
+	-webkit-animatinn-duration: 4s;
+	-webkit-animation-fill-mode: forwards;
+    }
+
+    #moving-text-1 {
+        animation-timing-function: linear;
+    }
+
+    #moving-text-2 {
+        animation-timing-function: ease;
+    }
+
+    #moving-text-3 {
+        animation-timing-function: ease-in;
+    }
+
+    #moving-text-4 {
+        animation-timing-function: ease-out;
+    }
+
+    /* Safari 4.0-8.0 */
+    @-webkit-keyframes news-moving-text {
+        from {left: 0px;}
+        to {left: 50px;}
+    }
+
+    /* Standard syntax */
+    @keyframes news-moving-text {
+        from {left: 0px;}
+        to {left: 50px;}
+    }
 }
 
-.imageSlides {
-    display: none;
-    /* ensure image is in center*/
+    .imageSlides {
+	display: none;
+	/* ensure image is in center*/
 }
 
 /* Fading Animation */
@@ -734,48 +859,6 @@ body {
 .text-emphasize {
     font-weight: bold;
     font-style: italic;
-}
-
-.moving-text {
-    color: #848484;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    position: relative;
-    animation-name: news-moving-text;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-    /* for Safari 4.0-8.0: */    
-    -webkit-animation-name: news-moving-text;
-    -webkit-animatinn-duration: 4s;
-    -webkit-animation-fill-mode: forwards;
-}
-
-#moving-text-1 {
-   animation-timing-function: linear;
-}
-
-#moving-text-2 {
-   animation-timing-function: ease;
-}
-
-#moving-text-3 {
-   animation-timing-function: ease-in;
-}
-
-#moving-text-4 {
-   animation-timing-function: ease-out;
-}
-
-/* Safari 4.0-8.0 */
-@-webkit-keyframes news-moving-text {
-  from {left: 0px;}
-  to {left: 50px;}
-} 
-
-/* Standard syntax */
-@keyframes news-moving-text {
-  from {left: 0px;}
-  to {left: 50px;}
 }
 
 .garden-pic-container {
