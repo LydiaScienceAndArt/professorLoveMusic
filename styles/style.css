@@ -275,8 +275,8 @@ body {
     .lecture-container {
 	margin-top: 10px;
 	width: 100%;
-	height: 300px;
-	font-size: 16.5px;
+	height: 500px;
+	font-size: 16px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #848484;
     }
@@ -285,18 +285,18 @@ body {
 	display: inline-block;
 	width: 80%;
 	height: 50%;
-	padding: 10px;
+	padding-top: 10px;
     }
 
     .lecture-sub-container-2 {
 	display: inline-block;
 	width: 80%;
 	height: 50%;
-	padding: 10px;
+	padding-top: 10px;
     }
 
     .lecture-text-container {
-	padding: 15x 8px 8px 8px;
+	padding: 8x 5px 5px 5px;
     }
 
     .lecture-title-container {
@@ -304,7 +304,6 @@ body {
     }
 
     .lecture-title-text {
-	font-size: 18px;
 	font-weight: bold;
 	color: #0174DF;
     }
