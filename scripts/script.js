@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
-    let mainNaviToggleCourses = document.getElementById('main-navi-toggle-courses');
+    let mainNaviToggleMiddleDevice = document.getElementById('main-navi-toggle-middle-device');
     let sidebarRightSmallDevice = document.getElementById('sidebar-right-small-device');
+    let sidebarLeftMiddleDevice = document.getElementById('sidebar-left-container');
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
@@ -24,14 +25,14 @@ function checkMainNaviToggle() {
 	});
     }
 
-    if (mainNaviToggleCourses) {
-	mainNaviToggleCourses.addEventListener('click', function() {
-            if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
-                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+    if (mainNaviToggleMiddleDevice) {
+	mainNaviToggleMiddleDevice.addEventListener('click', function() {
+            if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
+                sidebarRightSmallDevice.classList.toggle('sidebar-left-middle-device-on');
             }
            
-            if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
-                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+            if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
+                sidebarLeftMiddleDevice.classList.toggle('sidebar-left');
             }
 	});
     }
