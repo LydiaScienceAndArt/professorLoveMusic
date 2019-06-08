@@ -212,8 +212,8 @@ body {
     }
 
     .garden-pic-container {
-	width: 250px;
-	height: 187px;
+	width: 80%;
+	height: 80%;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -862,8 +862,8 @@ body {
 }
 
 .garden-pic-container {
-    width: 784px;
-    height: 588px;
+    width: 80%;
+    height: 80%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
