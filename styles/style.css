@@ -257,6 +257,38 @@ body {
         background-size: 100% 100%;
     }
 
+    .top-background-courses-page {
+	height: 220px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic-small-device.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-about-me-page {
+	height: 220px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic-small-device.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-useful-links-page {
+	height: 220px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic-small-device.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-gardener-page {
+	height: 220px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic-small-device.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
     .section {
 	margin-top: 15px;
 	padding-top: 15px;
@@ -536,6 +568,38 @@ body {
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+
+    .top-background-courses-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-about-me-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-useful-links-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
+
+    .top-background-gardener-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
 }
 
 /*Responsive web design: Desktop Styles*/
@@ -551,38 +615,38 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
     }
-}
 
-.top-background-courses-page {
-    height: 275px;
-    width: 100%;
-    background-image: url("../images/flower-background-pickar-pic.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    .top-background-courses-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
 
-.top-background-about-me-page {
-    height: 275px;
-    width: 100%;
-    background-image: url("../images/flower-background-pickar-pic.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    .top-background-about-me-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
 
-.top-background-useful-links-page {
-    height: 275px;
-    width: 100%;
-    background-image: url("../images/flower-background-pickar-pic.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+    .top-background-useful-links-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
 
-.top-background-gardener-page {
-    height: 275px;
-    width: 100%;
-    background-image: url("../images/flower-background-pickar-pic.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    .top-background-gardener-page {
+	height: 275px;
+	width: 100%;
+	background-image: url("../images/flower-background-pickar-pic.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    }
 }
 
 .imageSlides {
