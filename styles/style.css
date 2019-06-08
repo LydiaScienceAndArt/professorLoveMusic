@@ -232,21 +232,15 @@ body {
     }
 
     .profile-title {
-	padding-left: 35px;
+	padding-left: 40px;
 	padding-top: 8px;
 	height: 80px;
     }
 
     .profile-name {
-	text-align: left;
+	text-align: center;
+	padding-left: 40px;
 	font-size: 20px;
-	font-weight: bold;
-    }
-
-    .profile-position {
-	padding-top: 8px;
-	text-align: left;
-	font-size: 18px;
 	font-weight: bold;
     }
 
