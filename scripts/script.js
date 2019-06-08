@@ -15,7 +15,7 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    if (sideBarRightSmallDevice) {
+	    if (sidebarRightSmallDevice) {
 		if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
 		    sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
 		}
