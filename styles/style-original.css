@@ -20,6 +20,10 @@ body, html {
     .sidebar-right-small-device-off {
         display: none;
     }
+
+    .sidebar-right-small-device-on {
+        display: none;
+    }
     
     .sidebar-left {
 	top: 0;
@@ -30,6 +34,10 @@ body, html {
 	width: 300px;
 	height: 100%;
 	background-color: #045FB4;
+    }
+
+    .sidebar-left-middle-device-on {
+        display: none;
     }
 }
 
@@ -203,10 +211,26 @@ a:hover, a:active {
 /*Responsive web design: Mobile Styles - small devices*/
 @media (max-width: 800px) {
     .main-navi-icon {
-        display: none;
+        display: block;
+        position: fixed;
+        /*TODO: not sure whether below is useful to solve position:fixed in mobile*/
+        /*-webkit-backface-visibility: hidden;*/
+        right: 0px;
+        top: 0px;
+        height: 36px;
+        width: 40px;
+        cursor: pointer;
+        background-image: url("../images/mobile-main-navi-icon.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1000;
     }
 
     .sidebar-left {
+        display: none;
+    }
+
+    .sidebar-left-middle-device-on {
         display: none;
     }
 

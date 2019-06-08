@@ -15,28 +15,28 @@ function checkMainNaviToggle() {
 
     if (mainNaviToggle) {
 	mainNaviToggle.addEventListener('click', function() {
-	    if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
-	        sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
-	    }
+	    if (sideBarRightSmallDevice) {
+		if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
+		    sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
+		}
 
-	    if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
-                sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
-            }
-	});
-    }
-
-    if (mainNaviToggle) {
-	mainNaviToggle.addEventListener('click', function() {
-            /*Notice: below sidebar-left is "display: none"*/
-	    if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
-                sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
-                bodyRightContainer.classList.toggle('body-right-middle-device-with-sidebar-left'); 
+		if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
+		    sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
+		}
 	    }
-           
-            if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
-                sidebarLeftMiddleDevice.classList.toggle('sidebar-left');
-		bodyRightContainer.classList.toggle('body-right');     
-            }
+            
+	    if (sidebarLeftMiddleDevice) {
+		/*Notice: below sidebar-left is "display: none"*/
+		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
+		    sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
+		    bodyRightContainer.classList.toggle('body-right-middle-device-with-sidebar-left'); 
+		}
+	       
+		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
+		    sidebarLeftMiddleDevice.classList.toggle('sidebar-left');
+		    bodyRightContainer.classList.toggle('body-right');     
+		}
+	    }
 	});
     }
 }
