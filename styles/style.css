@@ -283,17 +283,15 @@ body {
 
     .lecture-sub-container-1 {
 	display: inline-block;
-	width: 50%;
-	height: 100%;
-	float: left;
+	width: 80%;
+	height: 50%;
 	padding: 10px;
     }
 
     .lecture-sub-container-2 {
 	display: inline-block;
-	width: 50%;
-	height: 100%;
-	float: right;
+	width: 80%;
+	height: 50%;
 	padding: 10px;
     }
 
@@ -594,6 +592,80 @@ body {
         from {left: 0px;}
         to {left: 50px;}
     }
+
+    .lecture-container {
+	margin-top: 30px;
+	width: 100%;
+	height: 350px;
+	font-size: 16.5px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #848484;
+    }
+
+    .lecture-sub-container-1 {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+    }
+
+    .lecture-sub-container-2 {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	float: right;
+	padding: 10px;
+    }
+
+    .lecture-text-container {
+	padding: 50px 20px 20px 10px;
+    }
+
+    .lecture-title-container {
+	width: 100%;
+    }
+
+    .lecture-title-text {
+	font-size: 24px;
+	font-weight: bold;
+	color: #0174DF;
+    }
+
+    .lecture-title-icon {
+	display: inline-block;
+	margin-right: 8px;
+	width: 26px;
+	height: 26px;
+	background-image: url("../images/lectures/blue-book-icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    }
+
+    .lecture-attachment-container {
+	margin-bottom: 0px;
+    }
+
+    a.lecture-attachment-link {
+	margin-left: 10px;
+	text-decoration: none;
+	decoration: none;
+    }
+
+    .lecture-attachment-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url("../images/lectures/yellow-file-icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    }
+
+    .lecture-pic-container {
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+    }
 }
 
 /*Responsive web design: Desktop Styles*/
@@ -716,11 +788,85 @@ body {
         from {left: 0px;}
         to {left: 50px;}
     }
+
+    .lecture-container {
+        margin-top: 30px;
+        width: 100%;
+        height: 350px;
+        font-size: 16.5px;
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        color: #848484;
+    }
+
+    .lecture-sub-container-1 {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 10px;
+    }
+
+    .lecture-sub-container-2 {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        float: right;
+        padding: 10px;
+    }
+
+    .lecture-text-container {
+        padding: 50px 20px 20px 10px;
+    }
+
+    .lecture-title-container {
+        width: 100%;
+    }
+
+    .lecture-title-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #0174DF;
+    }
+
+    .lecture-title-icon {
+        display: inline-block;
+        margin-right: 8px;
+        width: 26px;
+        height: 26px;
+        background-image: url("../images/lectures/blue-book-icon.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .lecture-attachment-container {
+	margin-bottom: 0px;
+    }
+
+    a.lecture-attachment-link {
+	margin-left: 10px;
+	text-decoration: none;
+	decoration: none;
+    }
+
+    .lecture-attachment-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url("../images/lectures/yellow-file-icon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    }
+
+    .lecture-pic-container {
+	padding: 15px;
+	width: 100%;
+	height: 100%;
+    }
 }
 
-    .imageSlides {
-	display: none;
-	/* ensure image is in center*/
+.imageSlides {
+    display: none;
+    /* ensure image is in center*/
 }
 
 /* Fading Animation */
