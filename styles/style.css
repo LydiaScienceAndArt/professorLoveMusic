@@ -35,15 +35,13 @@ body {
 /* Notice: we display main-navi-icon only when whole browser screen is less than 800px*/
 /* which means the right iframe body part has only 100px considering side-left-bar is 600px*/
 @media (max-width: 450px) {
-    /*TEST below, uncomment for now*/
     .main-navi-icon {
 	display: block;
 	position: fixed;
-	-webkit-backface-visibility: hidden;
 	right: 0px;
 	top: 0px;
-	height: 36px;
-	width: 40px;
+	height: 40px;
+	width: 45px;
 	cursor: pointer;
 	background-image: url("../images/mobile-main-navi-icon.png");
 	background-repeat: no-repeat;
