@@ -384,8 +384,8 @@ body {
         position: fixed;
         right: 0px;
         top: 0px;
-        height: 36px;
-        width: 40px;
+        height: 40px;
+        width: 45px;
         cursor: pointer;
         background-image: url("../images/mobile-main-navi-icon.png");
         background-repeat: no-repeat;
