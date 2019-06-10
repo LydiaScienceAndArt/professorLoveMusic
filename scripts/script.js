@@ -18,12 +18,10 @@ function checkMainNaviToggle() {
 	    if (sidebarRightSmallDevice) {
 		if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-off')) {
 		    sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-on');
-		    return;
 		}
 
 		if (sidebarRightSmallDevice.classList.contains('sidebar-right-small-device-on')) {
 		    sidebarRightSmallDevice.classList.toggle('sidebar-right-small-device-off');
-		    return;
 		}
 	    }
             
@@ -32,13 +30,11 @@ function checkMainNaviToggle() {
 		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
 		    sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
 		    bodyRightContainer.classList.toggle('body-right-middle-device-with-sidebar-left'); 
-		    return;
 		}
 	       
 		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left-middle-device-on')) {
 		    sidebarLeftMiddleDevice.classList.toggle('sidebar-left');
 		    bodyRightContainer.classList.toggle('body-right');     
-		    return;
 		}
 	    }
 	});
