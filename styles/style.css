@@ -282,14 +282,14 @@ body {
 
     .lecture-sub-container-1 {
 	display: inline-block;
-	width: 80%;
+	width: 100%;
 	height: 40%;
 	padding-top: 10px;
     }
 
     .lecture-sub-container-2 {
 	display: inline-block;
-	width: 80%;
+	width: 100%;
 	height: 60%;
     }
 
