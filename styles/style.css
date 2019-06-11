@@ -35,6 +35,20 @@ body {
 /* Notice: we display main-navi-icon only when whole browser screen is less than 800px*/
 /* which means the right iframe body part has only 100px considering side-left-bar is 600px*/
 @media (max-width: 450px) {
+    .html {
+        height: 100%;
+    }
+    
+    .body {
+        min-height: 100%;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #new-wrapper {
+        height: 100%;
+	overflow-y: scroll;
+    }
+
     .main-navi-icon {
 	display: block;
 	position: fixed;
