@@ -307,7 +307,7 @@ body {
     }
 
     .lecture-text-container {
-	padding: 8x 5px 5px 5px;
+	padding: 8x 15px 5px 15px;
     }
 
     .lecture-title-container {
@@ -331,12 +331,13 @@ body {
 
     .lecture-attachment-container {
 	margin-bottom: 0px;
+	padding-left: 15px;
     }
 
     .lecture-attachment-icon {
 	display: inline-block;
-	width: 30px;
-	height: 30px;
+	width: 40px;
+	height: 40px;
 	background-image: url("../images/lectures/yellow-file-icon.png");
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
