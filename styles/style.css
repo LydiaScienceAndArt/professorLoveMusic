@@ -396,7 +396,9 @@ body {
         to {left: 20px;}
     }
 }
-
+/*Notice: It hasn't been decided whether to have design for below (middle-size devices)*/
+/*Will comment for now, and finish code implemenation when decided.*/
+/*
 @media (min-width: 451px) and (max-width: 800px) {
     .main-navi-icon {
         display: block;
@@ -689,6 +691,7 @@ body {
 	height: 100%;
     }
 }
+*/
 
 /*Responsive web design: Desktop Styles*/
 @media (min-width: 801px) {

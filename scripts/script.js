@@ -7,10 +7,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     checkMainNaviToggle();
 });
 
+/*Notice: It hasn't been decided whether to implement middle-size devices(400px-800px screen)*/
+/*Relevant code is commented out for now, can add back/finish code implementation when needed*/
 function checkMainNaviToggle() {
     let mainNaviToggle = document.getElementById('main-navi-toggle');
     let sidebarRightSmallDevice = document.getElementById('sidebar-right-small-device');
-    let sidebarLeftMiddleDevice = document.getElementById('sidebar-left-container');
+    // let sidebarLeftMiddleDevice = document.getElementById('sidebar-left-container');
     let bodyRightContainer = document.getElementById('body-right-container');
 
     if (mainNaviToggle) {
@@ -25,6 +27,7 @@ function checkMainNaviToggle() {
 		}
 	    }
             
+	    /*
 	    if (sidebarLeftMiddleDevice) {
 		/*Notice: below sidebar-left is "display: none"*/
 		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
@@ -37,6 +40,7 @@ function checkMainNaviToggle() {
 		    bodyRightContainer.classList.toggle('body-right');     
 		}
 	    }
+	    */
 	});
     }
 }
