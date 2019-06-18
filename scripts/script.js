@@ -29,7 +29,7 @@ function checkMainNaviToggle() {
             
 	    /*
 	    if (sidebarLeftMiddleDevice) {
-		/*Notice: below sidebar-left is "display: none"*/
+		// Notice: below sidebar-left is "display: none"
 		if (sidebarLeftMiddleDevice.classList.contains('sidebar-left')) {
 		    sidebarLeftMiddleDevice.classList.toggle('sidebar-left-middle-device-on');
 		    bodyRightContainer.classList.toggle('body-right-middle-device-with-sidebar-left'); 
