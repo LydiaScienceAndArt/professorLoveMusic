@@ -583,7 +583,7 @@ body {
 	animation-name: news-moving-text;
 	animation-duration: 4s;
 	animation-fill-mode: forwards;
-	/* for Safari 4.0-8.0: */
+	// for Safari 4.0-8.0:
 	-webkit-animation-name: news-moving-text;
 	-webkit-animatinn-duration: 4s;
 	-webkit-animation-fill-mode: forwards;
@@ -605,13 +605,13 @@ body {
         animation-timing-function: ease-out;
     }
 
-    /* Safari 4.0-8.0 */
+    // Safari 4.0-8.0
     @-webkit-keyframes news-moving-text {
     from {left: 0px;}
         to {left: 50px;}
     }
 
-    /* Standard syntax */
+    // Standard syntax
     @keyframes news-moving-text {
         from {left: 0px;}
         to {left: 50px;}

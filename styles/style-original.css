@@ -145,8 +145,8 @@ a:hover, a:active {
     .main-navi-icon {
         display: block;
         position: fixed;
-	/*TODO: not sure whether below is useful to solve position:fixed in mobile*/
-        /*-webkit-backface-visibility: hidden;*/
+	// TODO: not sure whether below is useful to solve position:fixed in mobile
+        // -webkit-backface-visibility: hidden;
         right: 0px;
         top: 0px;
         height: 36px;
@@ -182,7 +182,7 @@ a:hover, a:active {
         position: absolute;
         overflow-y: auto;
 	/*Below is for scrolling on mobile devices*/
-        //-webkit-overflow-scrolling: touch;
+        // -webkit-overflow-scrolling: touch;
 	width: 100%;
         height: 100%;
     }
