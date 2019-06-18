@@ -34,7 +34,7 @@ body {
 /*Responsive web design: Mobile Styles*/
 /* Notice: we display main-navi-icon only when whole browser screen is less than 800px*/
 /* which means the right iframe body part has only 100px considering side-left-bar is 600px*/
-@media (max-width: 450px) {
+@media (max-width: 800px) {
     .html {
         height: 100%;
     }
