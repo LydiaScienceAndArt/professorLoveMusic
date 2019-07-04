@@ -65,8 +65,8 @@ function showSlides(x) {
     var slides = document.getElementsByClassName("imageSlides");
 
     // only execute when page is on gardener.html
-    if (typeof(slides) == "undefined") {
-	return;
+    if (slides.length == 0) {
+        return;
     }
 
     var dots = document.getElementsByClassName("select-dot");
