@@ -63,6 +63,12 @@ function selectCurrentSlide(x) {
 function showSlides(x) {
     var i;
     var slides = document.getElementsByClassName("imageSlides");
+
+    // only execute when page is on gardener.html
+    if (typeof(slides) == "undefined") {
+	return;
+    }
+
     var dots = document.getElementsByClassName("select-dot");
 
     if (x > slides.length) {
